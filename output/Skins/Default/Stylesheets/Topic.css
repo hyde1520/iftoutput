@@ -541,6 +541,18 @@ div.MCBreadcrumbsBox_0
 	border-bottom: solid 1px #bed230;
 }
 
+.xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.xref:hover
+{
+	color: #BED230;
+}
+
 iframe.youtube-player_video_0
 {
 	display: inline-block;
@@ -698,18 +710,6 @@ div.MCSlide
 .mc-thumbnail a.active img
 {
 	border: solid 1px #5280DD;
-}
-
-.xref
-{
-	color: #2D8DCC;
-	font-weight: bold;
-	text-decoration: underline;
-}
-
-.xref:hover
-{
-	color: #BED230;
 }
 
 .popup

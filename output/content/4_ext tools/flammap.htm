@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta charset="utf-8" />
         <meta name="description" content="" />
-        <meta name="author" content="" /><title>FlamMap</title>
+        <meta name="author" content="" /><title>Fire Behavior - Driven by FlamMap 5.0</title>
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
@@ -210,11 +210,57 @@
                                         </div>
                                         <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">You are here: </span><span class="MCBreadcrumbsSelf">Resources</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Documentation</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">FlamMap</span>
                                         </div>
-                                        <h1>FlamMap</h1>
+                                        <h1>Fire Behavior - Driven by FlamMap 5.0</h1>
                                         <p>
                                             <img src="../resources/images/flammap5_449x336.jpg" style="float: right;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;width: 449;height: 336;" alt="Flammap 5 logo" />FlamMap  is a fire behavior mapping and analysis software application that computes potential fire behavior characteristics (such as spread rate, flame length, and fireline intensity) over an entire landscape under constant weather and fuel moisture conditions.</p>
-                                        <p>&#160;</p>
-                                        <p>  Basic FlamMap simulates surface and crown fire behavior characteristics using Rothermel’s <a href="../5_references/references.htm#Rothermel1972">1972</a> surface fire model, Van Wagner’s <a href="../5_references/references.htm#VanWagner1977">1977</a> crown fire initiation model, and Rothermel’s <a href="../5_references/references.htm#Rothermel1991">1991</a> crown fire spread model for a single instance in time.  </p>
+                                        <p>  Basic FlamMap simulates surface and crown fire behavior characteristics using Rothermel’s <a href="../5_references/references.htm#Rothermel1972">1972</a> surface fire model, Van Wagner’s <a href="../5_references/references.htm#VanWagner1977">1977</a> crown fire initiation model, and Rothermel’s <a href="../5_references/references.htm#Rothermel1991">1991</a> crown fire spread model for a single instance in time. </p>
+                                        <ul>
+                                            <li value="1"><a href="flammapinput.htm" class="MCXref xref">FlamMap Fire Behavior Inputs</a>
+                                            </li>
+                                            <li value="2"><a href="flammapoutput.htm" class="MCXref xref">FlamMap Fire Behavior Outputs</a>
+                                            </li>
+                                            <li value="3"><a href="flammapcrown.htm" class="MCXref xref">Crown Fire Calculation Options</a>
+                                            </li>
+                                        </ul>
+                                        <h2>Running Fire Behavior in <span class="GeneralProductName">IFTDSS</span></h2>
+                                        <p>To run fire behavior across a landscape</p>
+                                        <ol style="list-style-type: lower-alpha;">
+                                            <li value="1">Navigate to the playground tab</li>
+                                            <li value="2">Select 'Basic' from the dropdown menu</li>
+                                            <li value="3">Select 'Run'</li>
+                                        </ol>
+                                        <p>
+                                            <img src="../resources/images/behaviorbasic_995x260.png" style="width: 995;height: 260;" />
+                                        </p>
+                                        <p>You will be prompted to name your run, make sure to give it a descriptive name so it can be easily identified later.</p>
+                                        <p>
+                                            <img src="../resources/images/behaviorbasic_creation_989x369.png" style="width: 989;height: 369;" />
+                                        </p>
+                                        <p>If you have already created your landscape file, choose a the landscape file from the dropdown menu. If you have not yet created a landscape file, you may do so by selecting 'Create New Landscape'.</p>
+                                        <p class="note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>Selecting 'Create New Landscape' will allow you to select a new landscape from within the modeling interface, you will not have to leave the interface.</p>
+                                        <p>
+                                            <img src="../resources/images/behaviorbasic_landscape_993x381.png" style="width: 993;height: 381;" />
+                                        </p>
+                                        <p>Input windspeed and direction in degrees (1-360).</p>
+                                        <p>
+                                            <img src="../resources/images/behaviorbasic_wind_998x333.png" style="width: 998;height: 333;" />
+                                        </p>
+                                        <p>Specify a <a href="flammapcrown.htm">crown fire calculation method</a> and foliar moisture content (in percent)</p>
+                                        <p>
+                                            <img src="../resources/images/behaviorbasic_crown_995x386.png" style="width: 995;height: 386;" />
+                                        </p>
+                                        <p>If you have a weather file for fuel moisture conditioning, you may add that here. If not, you may skip this step.</p>
+                                        <p>
+                                            <img src="../resources/images/behaviorbasic_fmcond_973x406.png" style="width: 973;height: 406;" />
+                                        </p>
+                                        <p>Input the fuel moistures for 1, 10, and 100 hour fuels, as well as herbaceous and woody fuels. When all the required inputs are filled the 'Run button will turn green to inform you the model is ready to run. Click the 'Run' button to run the fire behavior model.</p>
+                                        <p>
+                                            <img src="../resources/images/behaviorbasic_fuels_964x386.png" style="width: 964;height: 386;" />
+                                        </p>
+                                        <p>When the fire behavior model has completed a run, you will automatically be taken back to the 'Playground' page, where you may left click on your run to view or edit it.</p>
+                                        <p>
+                                            <img src="../resources/images/behaviorbasic_end_970x316.png" style="width: 970;height: 316;" />
+                                        </p>
                                     </div>
                                 </div>
                             </div>

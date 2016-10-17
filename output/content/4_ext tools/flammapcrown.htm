@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta charset="utf-8" />
         <meta name="description" content="" />
-        <meta name="author" content="" /><title>Thumbnail Image</title>
+        <meta name="author" content="" /><title>Crown Fire Calculation Options</title>
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
@@ -56,6 +56,7 @@
 
 </style>
         <link href="../resources/stylesheets/mainstyles.css" rel="stylesheet" />
+        <link href="../resources/tablestyles/patternedrows.css" rel="stylesheet" />
         <script src="../../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../../Resources/Scripts/jquery.min.js">
@@ -126,7 +127,7 @@
                                                 </li>
                                                 <li class="has-children"><a href="#">Documentation</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="../4_ext tools/flammap.htm">FlamMap</a>
+                                                        <li><a href="flammap.htm">FlamMap</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -208,12 +209,56 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <h1><a name="aanchor10"></a>
-                                            <MadCap:concept term="Images" /><a name="kanchor43"></a>Thumbnail Image</h1>
-                                        <p>Here is some general text for a topic. Replace this with your own content.</p>
-                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../resources/images/image.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="381" data-mc-height="253" src="../resources/images/image_thumb_0_48.png" alt="" tabindex="" /></a>
-                                        </p>
-                                        <p>Here is some general text for a topic. Replace this with your own content. Here is some general text for a topic. Replace this with your own content.</p>
+                                        <h1><a name="kanchor1"></a>Crown Fire Calculation Options</h1>
+                                        <p>When using the fire behavior module, you can select one of two methods to calculate crown fire potential:</p>
+                                        <ul style="list-style-type: square;">
+                                            <li value="1">the Finney (<a href="../5_references/references.htm#Finney1998">1998</a>) method</li>
+                                            <li value="2">the Scott and Reinhardt (<a href="../5_references/references.htm#ScottReinhardt2001">2001</a>) method</li>
+                                        </ul>
+                                        <p>Both methods are based on the same component crown fire behavior models (Van Wagner, <a href="../5_references/references.htm#VanWagner1977">1977</a>; Rothermel, <a href="../5_references/references.htm#Rothermel1991">1991</a>), although there are minor differences in implementation.  The disparities include the following:</p>
+                                        <ul style="list-style-type: square;">
+                                            <li value="1">active and passive crown fire rate of spread calculations</li>
+                                            <li value="2">fire type distinctions</li>
+                                            <li value="3">canopy bulk density inputs</li>
+                                            <li value="4">crown fraction burned (CFB)</li>
+                                            <li value="5">crowning index (CI) calculations</li>
+                                        </ul>
+                                        <p>These subtle differences in implementation lead to significantly less predicted crown fire activity in Finney’s method compared to Scott and Reinhardt’s method. The crowning index is used to predict the relative ease of sustaining an active crown fire.</p>
+                                        <p>Calculated crown fraction burned values are much lower in Finney’s method. Therefore, Finney’s method under-predicts the likelihood a fire will transition to a crown fire with subsequent crown fire behavior activity compared to Scott and Reinhardt’s method (Scott, <a href="../5_references/references.htm#Scott2006">2006</a>).  </p>
+                                        <p>Scott and Reinhardt’s method produces CI values that are two times lower than Finney’s method (the lower the crowning index, the better chance of sustaining a crown fire). </p>
+                                        <p>The following table gives a brief description of the differences between the two methods.</p>
+                                        <table style="width: 100%;mc-table-style: url('../resources/tablestyles/patternedrows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+                                            <col style="width: 328px;" class="TableStyle-PatternedRows-Column-Regular" />
+                                            <col class="TableStyle-PatternedRows-Column-Regular" />
+                                            <col class="TableStyle-PatternedRows-Column-Regular" />
+                                            <tbody>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td style="font-weight: bold;text-align: center;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Crown Fire Characteristic</td>
+                                                    <td style="font-weight: bold;text-align: center;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Finney (1998)</td>
+                                                    <td style="font-weight: bold;text-align: center;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Scott and Reinhardt (2001)</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Active crown fire rate of spread (ROS)</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">ROS reduced to account for spotting modeled separately (based on Rothermel [1991]).</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">ROS not modified (based on Rothermel [1991]).</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Passive crown fire ROS</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Same as surface ROS.</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">ROS scaled to crown fraction burned (CFB).</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Fire types</td>
+                                                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Surface, passive, and active.</td>
+                                                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Surface, passive, and active but conditional crown fire is not identified.</td>
+                                                </tr>
+                                                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                                                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Canopy bulk density (CBD) inputs</td>
+                                                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">CBD calculated with 15 ft running mean method should be approximately doubled.</td>
+                                                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">Used CBD calculated with 15 ft running mean method.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
