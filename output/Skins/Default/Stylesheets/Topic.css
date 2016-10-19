@@ -488,6 +488,13 @@ div.MCBreadcrumbsBox_0
 	margin-bottom: 10px;
 }
 
+iframe.youtube-player_0
+{
+	display: inline-block;
+	width: 560px;
+	height: 315px;
+}
+
 .dropDown
 {
 	margin-bottom: 6px;
@@ -518,7 +525,7 @@ div.MCBreadcrumbsBox_0
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
 {
 	background-position: left;
-	background-image: url('DropDownOpen.png');
+	background-image: url('dropdownopen.png');
 	padding-left: 0px;
 	padding-right: 0;
 }
@@ -526,7 +533,7 @@ div.MCBreadcrumbsBox_0
 .MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
 {
 	background-position: left;
-	background-image: url('DropDownClosed.png');
+	background-image: url('dropdownclosed.png');
 	padding-left: 0px;
 	padding-right: 0;
 }
@@ -776,7 +783,7 @@ div.MCSlide
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_SecondLevel
 {
 	background-position: left;
-	background-image: url('DropDownOpenSecondLevel.png');
+	background-image: url('dropdownopensecondlevel.png');
 	padding-left: 0px;
 	padding-right: 0;
 }
@@ -784,7 +791,7 @@ div.MCSlide
 .MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_SecondLevel
 {
 	background-position: left;
-	background-image: url('DropDownClosedSecondLevel.png');
+	background-image: url('dropdownclosedsecondlevel.png');
 	padding-left: 0px;
 	padding-right: 0;
 }
