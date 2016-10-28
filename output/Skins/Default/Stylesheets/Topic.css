@@ -488,11 +488,16 @@ div.MCBreadcrumbsBox_0
 	margin-bottom: 10px;
 }
 
-iframe.youtube-player_0
+.xref
 {
-	display: inline-block;
-	width: 560px;
-	height: 315px;
+	color: #2D8DCC;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.xref:hover
+{
+	color: #e67d27;
 }
 
 .dropDown
@@ -519,13 +524,13 @@ iframe.youtube-player_0
 
 .dropDownHotspot:hover
 {
-	color: #BED230;
+	color: #e67d27;
 }
 
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
 {
 	background-position: left;
-	background-image: url('dropdownopen.png');
+	background-image: url('DropDownOpen.png');
 	padding-left: 0px;
 	padding-right: 0;
 }
@@ -533,7 +538,7 @@ iframe.youtube-player_0
 .MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
 {
 	background-position: left;
-	background-image: url('dropdownclosed.png');
+	background-image: url('DropDownClosed.png');
 	padding-left: 0px;
 	padding-right: 0;
 }
@@ -545,19 +550,7 @@ iframe.youtube-player_0
 
 .dropDownBody
 {
-	border-bottom: solid 1px #bed230;
-}
-
-.xref
-{
-	color: #2D8DCC;
-	font-weight: bold;
-	text-decoration: underline;
-}
-
-.xref:hover
-{
-	color: #BED230;
+	border-bottom: solid 1px #e67d27;
 }
 
 iframe.youtube-player_video_0
@@ -719,6 +712,13 @@ div.MCSlide
 	border: solid 1px #5280DD;
 }
 
+iframe.youtube-player_0
+{
+	display: inline-block;
+	width: 560px;
+	height: 315px;
+}
+
 .popup
 {
 	color: #2D8DCC;
@@ -783,7 +783,7 @@ div.MCSlide
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_SecondLevel
 {
 	background-position: left;
-	background-image: url('dropdownopensecondlevel.png');
+	background-image: url('DropDownOpenSecondLevel.png');
 	padding-left: 0px;
 	padding-right: 0;
 }
@@ -791,7 +791,7 @@ div.MCSlide
 .MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_SecondLevel
 {
 	background-position: left;
-	background-image: url('dropdownclosedsecondlevel.png');
+	background-image: url('DropDownClosedSecondLevel.png');
 	padding-left: 0px;
 	padding-right: 0;
 }

@@ -27,7 +27,7 @@ a:visited
 
 a:hover
 {
-	color: #BED230;
+	color: #e67d27;
 }
 
 a.MCBreadcrumbsLink
@@ -43,7 +43,7 @@ a.MCBreadcrumbsLink:visited
 
 a.MCBreadcrumbsLink:hover
 {
-	color: #BED230;
+	color: #e67d27;
 }
 
 div.example
@@ -108,7 +108,7 @@ div.note
 
 .noteInDiv
 {
-	mc-auto-number-format: '{b}{color #bed230}Note: {/color}{/b}';
+	mc-auto-number-format: '{b}{color #e67d27}Note: {/color}{/b}';
 }
 
 div.quotation
@@ -233,7 +233,7 @@ MadCap|dropDown.SecondLevel
 
 MadCap|dropDownBody
 {
-	border-bottom: solid 1px #bed230;
+	border-bottom: solid 1px #e67d27;
 }
 
 MadCap|dropDownBody.Final
@@ -255,7 +255,7 @@ MadCap|dropDownHotspot
 
 MadCap|dropDownHotspot:hover
 {
-	color: #BED230;
+	color: #e67d27;
 }
 
 MadCap|footnoteBlock
@@ -319,7 +319,7 @@ MadCap|xref
 
 MadCap|xref:hover
 {
-	color: #BED230;
+	color: #e67d27;
 }
 
 MadCap|xref.IndexPageNumber
@@ -602,16 +602,16 @@ html.templateTopic div.sideContent
 
 	div.GlossaryPageHeading
 	{
-		border-bottom-color: #bed230;
+		border-bottom-color: #e67d27;
 		border-bottom-style: solid;
 		border-bottom-width: 1px;
-		color: #bed230;
+		color: #e67d27;
 		font-size: 11pt;
 	}
 
 	div.GlossaryPageTerm
 	{
-		color: #bed230;
+		color: #e67d27;
 		font-size: 10pt;
 		padding-bottom: 10px;
 		padding-top: 10px;
@@ -624,7 +624,7 @@ html.templateTopic div.sideContent
 
 	h1
 	{
-		color: #bed230;
+		color: #e67d27;
 		font-family: 'Century Gothic';
 		font-size: 22pt;
 		line-height: 24pt;
@@ -697,7 +697,7 @@ html.templateTopic div.sideContent
 
 	MadCap|footnotesBlock
 	{
-		border-top-color: #bed230;
+		border-top-color: #e67d27;
 	}
 
 	MadCap|glossaryProxy
@@ -736,7 +736,7 @@ html.templateTopic div.sideContent
 
 	MadCap|xref.IndexPageNumber
 	{
-		color: #BED230;
+		color: #e67d27;
 	}
 
 	nav.tab-bar,
@@ -858,7 +858,7 @@ html.templateTopic div.sideContent
 
 	p.ManualTitle2
 	{
-		color: #bed230;
+		color: #e67d27;
 		font-family: 'Century Gothic';
 		font-size: 22pt;
 		line-height: 0;
@@ -895,7 +895,7 @@ html.templateTopic div.sideContent
 
 	p.TOC1
 	{
-		color: #bed230;
+		color: #e67d27;
 		font-size: 12pt;
 		font-weight: normal;
 		margin-bottom: 6px;
@@ -927,7 +927,7 @@ html.templateTopic div.sideContent
 
 	p.TOC4
 	{
-		color: #bed230;
+		color: #e67d27;
 		font-size: 12pt;
 		font-weight: normal;
 		margin-bottom: 6px;
@@ -957,13 +957,13 @@ html.templateTopic div.sideContent
 
 	span.FigureNum
 	{
-		color: #bed230;
+		color: #e67d27;
 		font-style: normal;
 	}
 
 	span.TableNum
 	{
-		color: #bed230;
+		color: #e67d27;
 		font-style: normal;
 	}
 

@@ -41,7 +41,7 @@ img
 
 .tab-bar-section.middle > div
 {
-	min-height: 55px;
+	min-height: 40px;
 }
 
 /* Topbar (Navigation) Dropdown Styles*/
@@ -56,7 +56,7 @@ ul.navigation
 	position: relative;
 	margin-top: 0;
 	margin-bottom: 0;
-	margin-left: 146px;
+	margin-left: 191px;
 	background-repeat: repeat;
 	background-position: center center;
 	color: #ffffff;
@@ -303,7 +303,7 @@ nav.tab-bar
 	display: block;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: #292928;
+	background-color: #293B49;
 }
 
 nav.tab-bar .menu-icon
@@ -332,14 +332,14 @@ nav.tab-bar .menu-icon
 	margin: 0;
 	position: absolute;
 	display: block;
-	width: 146px;
-	height: 55px;
+	width: 191px;
+	height: 27px;
 	top: 50%;
 	bottom: auto;
-	margin-top: -27.5px;
+	margin-top: -13.5px;
 	left: 0;
-	background: transparent url('Images/RDnA_clear2.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/RDnA_clear2.png') no-repeat center center;
+	background: transparent url('Images/IFTDSS_support_102716.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/IFTDSS_support_102716.png') no-repeat center center;
 }
 
 /* Topbar Menu Functionality Styles */
@@ -583,8 +583,8 @@ ul.navigation ul ul ul ul > li:hover
 	border-top-right-radius: 25px;
 	border-bottom-right-radius: 25px;
 	width: 56px;
-	background: #bed230 url('Images/SearchIcon.png') no-repeat center center;
-	-pie-background: #bed230 url('Skins/Fluid/Stylesheets/Images/SearchIcon.png') no-repeat center center;
+	background: #e67d27 url('Images/SearchIcon.png') no-repeat center center;
+	-pie-background: #e67d27 url('Skins/Fluid/Stylesheets/Images/SearchIcon.png') no-repeat center center;
 }
 
 #resultList .glossary .definition

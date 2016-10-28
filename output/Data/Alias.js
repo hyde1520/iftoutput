@@ -77,5 +77,16 @@ xmlAliasData += '    <Map Name=\"s_landfire\" Link=\"9_short/landscapesummary/s_
 xmlAliasData += '    <Map Name=\"s_name\" Link=\"9_short/landscapesummary/s_name.htm\" ResolvedId=\"1081\" />';
 xmlAliasData += '    <Map Name=\"s_resolution\" Link=\"9_short/landscapesummary/s_resolution.htm\" ResolvedId=\"1082\" />';
 xmlAliasData += '    <Map Name=\"s_w_video\" Link=\"9_short/landscapesummary/s_w video.htm\" ResolvedId=\"1083\" />';
+xmlAliasData += '    <Map Name=\"create_a_landscape\" Link=\"2_methods/create_a_landscape.htm\" ResolvedId=\"1084\" />';
+xmlAliasData += '    <Map Name=\"report_data\" Link=\"4_1_reporting/report_data.htm\" ResolvedId=\"1085\" />';
+xmlAliasData += '    <Map Name=\"report_overview\" Link=\"4_1_reporting/report_overview.htm\" ResolvedId=\"1086\" />';
+xmlAliasData += '    <Map Name=\"wheel_implementation\" Link=\"4_2_wheel/wheel_implementation.htm\" ResolvedId=\"1087\" />';
+xmlAliasData += '    <Map Name=\"Wheel_landscape\" Link=\"4_2_wheel/wheel_landscape.htm\" ResolvedId=\"1088\" />';
+xmlAliasData += '    <Map Name=\"wheel_monitoring\" Link=\"4_2_wheel/wheel_monitoring.htm\" ResolvedId=\"1089\" />';
+xmlAliasData += '    <Map Name=\"wheel_overview\" Link=\"4_2_wheel/wheel_overview.htm\" ResolvedId=\"1090\" />';
+xmlAliasData += '    <Map Name=\"wheel_reporting\" Link=\"4_2_wheel/wheel_reporting.htm\" ResolvedId=\"1091\" />';
+xmlAliasData += '    <Map Name=\"wheel_strategic\" Link=\"4_2_wheel/wheel_strategic.htm\" ResolvedId=\"1092\" />';
+xmlAliasData += '    <Map Name=\"evaluate_landscape\" Link=\"4_ext tools/evaluate_landscape.htm\" ResolvedId=\"1093\" />';
+xmlAliasData += '    <Map Name=\"models_overview\" Link=\"4_ext tools/models_overview.htm\" ResolvedId=\"1094\" />';
 xmlAliasData += '</CatapultAliasFile>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);
