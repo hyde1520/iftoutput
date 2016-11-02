@@ -87,4 +87,5 @@
     <Map Name="wheel_strategic" Link="4_2_wheel/wheel_strategic.htm" ResolvedId="1092" />
     <Map Name="evaluate_landscape" Link="4_ext tools/evaluate_landscape.htm" ResolvedId="1093" />
     <Map Name="models_overview" Link="4_ext tools/models_overview.htm" ResolvedId="1094" />
+    <Map Name="Behavior_FlamMap" Link="4_ext tools/behavior_flammap.htm" ResolvedId="1095" />
 </CatapultAliasFile>

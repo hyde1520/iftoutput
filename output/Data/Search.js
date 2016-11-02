@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],u:['../content/0_iftdss/about iftdss.htm'],s:['0','multipl'],p:[['0',15],['complexity',48],['functionality',19],['map',0],['research',48],['to',15]]});
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../content/0_iftdss/about iftdss.htm'],s:['0','mountain'],p:[['0',15],['communications',47],['from',50],['lists',70],['replace',35],['this',44]]});

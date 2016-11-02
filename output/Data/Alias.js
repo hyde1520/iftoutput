@@ -88,5 +88,6 @@ xmlAliasData += '    <Map Name=\"wheel_reporting\" Link=\"4_2_wheel/wheel_report
 xmlAliasData += '    <Map Name=\"wheel_strategic\" Link=\"4_2_wheel/wheel_strategic.htm\" ResolvedId=\"1092\" />';
 xmlAliasData += '    <Map Name=\"evaluate_landscape\" Link=\"4_ext tools/evaluate_landscape.htm\" ResolvedId=\"1093\" />';
 xmlAliasData += '    <Map Name=\"models_overview\" Link=\"4_ext tools/models_overview.htm\" ResolvedId=\"1094\" />';
+xmlAliasData += '    <Map Name=\"Behavior_FlamMap\" Link=\"4_ext tools/behavior_flammap.htm\" ResolvedId=\"1095\" />';
 xmlAliasData += '</CatapultAliasFile>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);
