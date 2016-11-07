@@ -488,18 +488,6 @@ div.MCBreadcrumbsBox_0
 	margin-bottom: 10px;
 }
 
-.xref
-{
-	color: #2D8DCC;
-	font-weight: bold;
-	text-decoration: underline;
-}
-
-.xref:hover
-{
-	color: #e67d27;
-}
-
 .dropDown
 {
 	margin-bottom: 6px;
@@ -530,7 +518,7 @@ div.MCBreadcrumbsBox_0
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
 {
 	background-position: left;
-	background-image: url('DropDownOpen.png');
+	background-image: url('DropDownOpen_orange.png');
 	padding-left: 0px;
 	padding-right: 0;
 }
@@ -551,6 +539,18 @@ div.MCBreadcrumbsBox_0
 .dropDownBody
 {
 	border-bottom: solid 1px #e67d27;
+}
+
+.xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.xref:hover
+{
+	color: #e67d27;
 }
 
 iframe.youtube-player_video_0
@@ -783,7 +783,7 @@ iframe.youtube-player_0
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_SecondLevel
 {
 	background-position: left;
-	background-image: url('DropDownOpenSecondLevel.png');
+	background-image: url('DropDownOpenSecondLevel_orange.png');
 	padding-left: 0px;
 	padding-right: 0;
 }
