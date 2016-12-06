@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],u:['../content/0_iftdss/about iftdss.htm'],s:['0','michael'],p:[['0',15],['chaos',50],['footnotes',70],['keown',51],['portion',0],['text',14],['you',15]]});
+define({r:0.5,st:'Stem',n:1,t:[0,88],u:['../content/0_iftdss/about iftdss.htm'],s:['+','ft','sara'],p:[['+',1],['annotated',54],['confirmation',57],['extent',7],['ha',36],['kinds',32],['north',42],['queries',0],['steps',80],['ton',36]]});
