@@ -476,6 +476,18 @@ a.glossaryTerm
 	display: none;
 }
 
+div.MCBreadcrumbsBox_0
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	border-bottom-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: black;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
 .dropDown
 {
 	margin-bottom: 6px;
@@ -529,16 +541,11 @@ a.glossaryTerm
 	border-bottom: solid 1px #e67d27;
 }
 
-div.MCBreadcrumbsBox_0
+iframe.youtube-player_0
 {
-	border-bottom: none;
-	font-size: .7em;
-	font-style: italic;
-	border-bottom-width: 1px;
-	border-bottom-style: none;
-	border-bottom-color: black;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
+	display: inline-block;
+	width: 560px;
+	height: 315px;
 }
 
 .xref
@@ -710,95 +717,6 @@ div.MCSlide
 .mc-thumbnail a.active img
 {
 	border: solid 1px #5280DD;
-}
-
-iframe.youtube-player_0
-{
-	display: inline-block;
-	width: 560px;
-	height: 315px;
-}
-
-.popup
-{
-	color: #2D8DCC;
-}
-
-.popup:link
-{
-	color: #2D8DCC;
-}
-
-.popupHead
-{
-	color: #2D8DCC;
-	font-weight: bold;
-}
-
-.popupHead:link
-{
-	color: #2D8DCC;
-	font-weight: bold;
-}
-
-.popup:hover
-{
-	color: #2D8DCC;
-}
-
-.popup:focus
-{
-	color: #2D8DCC;
-}
-
-.popupBody
-{
-	color: #000000;
-	background-color: #dcdcdc;
-	border: solid 1px #000000;
-	margin: 0px;
-	padding: 5px;
-}
-
-.MCTextPopupArrow
-{
-	border-bottom-color: #dcdcdc;
-}
-
-.MCTextPopupBodyBottom .MCTextPopupArrow
-{
-	border-top-color: #dcdcdc;
-}
-
-.img
-{
-	border: none;
-}
-
-.dropDown.dropDownSecondLevel
-{
-	margin-left: 10px;
-}
-
-.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_SecondLevel
-{
-	background-position: left;
-	background-image: url('DropDownOpenSecondLevel_orange.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_SecondLevel
-{
-	background-position: left;
-	background-image: url('DropDownClosedSecondLevel_orange.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.dropDownBody.dropDownBodyFinal
-{
-	border-bottom: 0;
 }
 
 .MCWebHelpFramesetLink a

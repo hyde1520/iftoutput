@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0,88],u:['../content/0_iftdss/about iftdss.htm'],s:['+','ft','sara'],p:[['+',1],['annotated',54],['confirmation',57],['extent',7],['ha',36],['kinds',32],['north',42],['queries',0],['steps',80],['ton',36]]});
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../content/0_iftdss/about iftdss.htm'],s:['+','font','report'],p:[['+',5],['any',67],['complete',49],['examine',22],['habitat',24],['landscape',5],['non',26],['quantifying',20],['study',59],['types',11]]});

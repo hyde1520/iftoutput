@@ -3,98 +3,98 @@
     <Map Name="Home" Link="home.htm" ResolvedId="1000" />
     <Map Name="About_IFTDSS" Link="0_iftdss/about iftdss.htm" ResolvedId="1001" />
     <Map Name="Disclaimer" Link="0_iftdss/disclaimer.htm" ResolvedId="1002" />
-    <Map Name="Known_Issues" Link="0_iftdss/known issues.htm" ResolvedId="1003" />
-    <Map Name="Technical_Topics" Link="0_iftdss/technical topics.htm" ResolvedId="1004" />
-    <Map Name="What_s_New" Link="0_iftdss/what's new.htm" ResolvedId="1006" />
-    <Map Name="Getting_Help" Link="1_getting started/getting help.htm" ResolvedId="1007" />
-    <Map Name="Navigating_IFTDSS" Link="1_getting started/navigating iftdss.htm" ResolvedId="1008" />
-    <Map Name="Setting_up_an_Account" Link="1_getting started/setting up an account.htm" ResolvedId="1009" />
-    <Map Name="Data_Management" Link="2_0_methods/data management.htm" ResolvedId="1010" />
-    <Map Name="Map_Functions" Link="2_0_methods/map functions.htm" ResolvedId="1011" />
-    <Map Name="Overview_of_Modules" Link="2_0_methods/overview of modules.htm" ResolvedId="1012" />
-    <Map Name="Tutorials" Link="3_tutorials/tutorials.htm" ResolvedId="1015" />
-    <Map Name="Behave" Link="4_ext tools behavr/behave2.htm" ResolvedId="1016" />
-    <Map Name="FFA_Consume" Link="4_ext tools fft/fft_consume.htm" ResolvedId="1017" />
-    <Map Name="FFA_Digital_Photo_Series" Link="4_ext tools fft/fft_digital_photo_series.htm" ResolvedId="1018" />
-    <Map Name="FFA_ConsumeIN" Link="4_ext tools fft/fft_consumein.htm" ResolvedId="1101" />
-    <Map Name="FFA_FEPS" Link="4_ext tools fft/fft_feps.htm" ResolvedId="1020" />
-    <Map Name="FireFamilyPlus" Link="4_ext tools/firefamilyplus.htm" ResolvedId="1021" />
-    <Map Name="FlamMap" Link="4_ext tools behavr/flammap5.htm" ResolvedId="1022" />
-    <Map Name="FlamMapCrown" Link="4_ext tools behavr/flammapcrown.htm" ResolvedId="1023" />
-    <Map Name="FlamMapInput" Link="4_ext tools behavr/flammapinput.htm" ResolvedId="1024" />
-    <Map Name="FlamMapOutput" Link="4_ext tools behavr/flammapoutput.htm" ResolvedId="1025" />
-    <Map Name="FOFEM" Link="4_ext tools/fofem.htm" ResolvedId="1026" />
-    <Map Name="Risk" Link="4_ext tools/risk.htm" ResolvedId="1027" />
-    <Map Name="References" Link="5_references/references.htm" ResolvedId="1028" />
-    <Map Name="User_Stories" Link="6_user stories/user_stories.htm" ResolvedId="1029" />
-    <Map Name="Workshops" Link="7_workshops/workshops.htm" ResolvedId="1030" />
-    <Map Name="Background" Link="8_background/background.htm" ResolvedId="1031" />
-    <Map Name="phase_1" Link="8_background/phase_1.htm" ResolvedId="1032" />
-    <Map Name="phase_2" Link="8_background/phase_2.htm" ResolvedId="1033" />
-    <Map Name="phase_3" Link="8_background/phase_3.htm" ResolvedId="1034" />
-    <Map Name="phase_4" Link="8_background/phase_4.htm" ResolvedId="1035" />
-    <Map Name="phase_5" Link="8_background/phase_5.htm" ResolvedId="1036" />
-    <Map Name="Project_Team" Link="8_background/project team.htm" ResolvedId="1037" />
-    <Map Name="rda_1" Link="8_background/rda_1.htm" ResolvedId="1038" />
-    <Map Name="Basic_Steps" Link="a_getting started/basic steps.htm" ResolvedId="1039" />
-    <Map Name="Getting_Started" Link="a_getting started/getting started.htm" ResolvedId="1040" />
-    <Map Name="Known_Issues1" Link="a_getting started/known issues.htm" ResolvedId="1041" />
-    <Map Name="Whats_New" Link="a_getting started/whats new.htm" ResolvedId="1042" />
-    <Map Name="Links" Link="b_links and lists/links.htm" ResolvedId="1043" />
-    <Map Name="LinksAndLists" Link="b_links and lists/linksandlists.htm" ResolvedId="1044" />
-    <Map Name="Lists" Link="b_links and lists/lists.htm" ResolvedId="1045" />
-    <Map Name="Conditions" Link="c_conditions notes tables/conditions.htm" ResolvedId="1046" />
-    <Map Name="ConditionsNotesTables" Link="c_conditions notes tables/conditionsnotestables.htm" ResolvedId="1047" />
-    <Map Name="NotesExamplesQuotations" Link="c_conditions notes tables/notesexamplesquotations.htm" ResolvedId="1048" />
-    <Map Name="Tables" Link="c_conditions notes tables/tables.htm" ResolvedId="1049" />
-    <Map Name="ImagePositionedLeft" Link="d_images/imagepositionedleft.htm" ResolvedId="1050" />
-    <Map Name="ImagePositionedRight" Link="d_images/imagepositionedright.htm" ResolvedId="1051" />
-    <Map Name="Images" Link="d_images/images.htm" ResolvedId="1052" />
-    <Map Name="ImageWithinList" Link="d_images/imagewithinlist.htm" ResolvedId="1054" />
-    <Map Name="Positioned_Images" Link="d_images/positioned images.htm" ResolvedId="1055" />
-    <Map Name="ThumbnailImage" Link="d_images/thumbnailimage.htm" ResolvedId="1056" />
-    <Map Name="Company_Information" Link="e_footer topics/company information.htm" ResolvedId="1057" />
-    <Map Name="FAQs" Link="e_footer topics/faqs.htm" ResolvedId="1058" />
-    <Map Name="PDF_Downloads" Link="e_footer topics/pdf downloads.htm" ResolvedId="1059" />
-    <Map Name="Tips" Link="e_footer topics/tips.htm" ResolvedId="1060" />
+    <Map Name="Known_Issues" Link="0_iftdss/known_issues.htm" ResolvedId="1003" />
+    <Map Name="Technical_Topics" Link="0_iftdss/technical_topics.htm" ResolvedId="1004" />
+    <Map Name="What_s_New" Link="0_iftdss/whats_new.htm" ResolvedId="1006" />
+    <Map Name="Getting_Help" Link="1_getting_started/getting_help.htm" ResolvedId="1007" />
+    <Map Name="Navigating_IFTDSS" Link="1_getting_started/navigating_iftdss.htm" ResolvedId="1008" />
+    <Map Name="Setting_up_an_Account" Link="1_getting_started/set_up_account.htm" ResolvedId="1009" />
+    <Map Name="Data_Management" Link="2_navigating/data management.htm" ResolvedId="1010" />
+    <Map Name="Map_Functions" Link="3_map/map_functions.htm" ResolvedId="1011" />
+    <Map Name="Overview_of_Modules" Link="2_navigating/overview_modules.htm" ResolvedId="1012" />
+    <Map Name="Tutorials" Link="9_tutorials/tutorials.htm" ResolvedId="1015" />
+    <Map Name="Behave" Link="5_pg_behave/behave2.htm" ResolvedId="1016" />
+    <Map Name="FlamMap" Link="5_pg_flammap/flammap5.htm" ResolvedId="1022" />
+    <Map Name="FlamMapCrown" Link="5_pg_flammap/flammapcrown.htm" ResolvedId="1023" />
+    <Map Name="FlamMapInput" Link="5_pg_flammap/flammapinput.htm" ResolvedId="1024" />
+    <Map Name="FlamMapOutput" Link="5_pg_flammap/flammapoutput.htm" ResolvedId="1025" />
+    <Map Name="Risk" Link="5_pg_risk/risk.htm" ResolvedId="1027" />
+    <Map Name="References" Link="15_references/references.htm" ResolvedId="1028" />
+    <Map Name="Background" Link="13_background/background.htm" ResolvedId="1031" />
+    <Map Name="phase_1" Link="13_background/phase_1.htm" ResolvedId="1032" />
+    <Map Name="phase_2" Link="13_background/phase_2.htm" ResolvedId="1033" />
+    <Map Name="phase_3" Link="13_background/phase_3.htm" ResolvedId="1034" />
+    <Map Name="phase_4" Link="13_background/phase_4.htm" ResolvedId="1035" />
+    <Map Name="phase_5" Link="13_background/phase_5.htm" ResolvedId="1036" />
+    <Map Name="Project_Team" Link="13_background/project team.htm" ResolvedId="1037" />
+    <Map Name="rda_1" Link="13_background/rda_1.htm" ResolvedId="1038" />
     <Map Name="icons" Link="resources/stylesheets/icons/icons.html" ResolvedId="1068" />
     <Map Name="icons1" Link="resources/stylesheets/icons/icons.html" ResolvedId="1069" />
-    <Map Name="s_flammap_crown" Link="9_short/flammap_basic/s_flammap_crown.htm" Skin="webhelp" ResolvedId="1070" />
-    <Map Name="s_flammap_fm" Link="9_short/flammap_basic/s_flammap_fm.htm" Skin="webhelp" ResolvedId="1071" />
-    <Map Name="s_flammap_lndscape" Link="9_short/flammap_basic/s_flammap_lndscape.htm" Skin="webhelp" ResolvedId="1072" />
-    <Map Name="s_flammap_name" Link="9_short/flammap_basic/s_flammap_name.htm" Skin="webhelp" ResolvedId="1073" />
-    <Map Name="s_flammap_wind" Link="9_short/flammap_basic/s_flammap_wind.htm" Skin="webhelp" ResolvedId="1074" />
-    <Map Name="s_flammap_wthr" Link="9_short/flammap_basic/s_flammap_wthr.htm" Skin="webhelp" ResolvedId="1075" />
-    <Map Name="Landscape_summary" Link="2_0_methods/landscape_summary.htm" ResolvedId="1076" />
-    <Map Name="s_createnew" Link="9_short/landscapesummary/s_createnew.htm" Skin="webhelp" ResolvedId="1077" />
-    <Map Name="s_draw" Link="9_short/landscapesummary/s_draw.htm" Skin="webhelp" ResolvedId="1078" />
-    <Map Name="s_fbfm" Link="9_short/landscapesummary/s_fbfm.htm" Skin="webhelp" ResolvedId="1079" />
-    <Map Name="s_landfire" Link="9_short/landscapesummary/s_landfire.htm" Skin="webhelp" ResolvedId="1080" />
-    <Map Name="s_name" Link="9_short/landscapesummary/s_name.htm" Skin="webhelp" ResolvedId="1081" />
-    <Map Name="s_resolution" Link="9_short/landscapesummary/s_resolution.htm" Skin="webhelp" ResolvedId="1082" />
-    <Map Name="s_w_video" Link="9_short/landscapesummary/s_w video.htm" Skin="webhelp" ResolvedId="1083" />
-    <Map Name="create_a_landscape" Link="2_0_methods/create_a_landscape.htm" ResolvedId="1084" />
-    <Map Name="report_data" Link="4_1_reporting/report_data.htm" ResolvedId="1085" />
-    <Map Name="report_overview" Link="4_1_reporting/report_overview.htm" ResolvedId="1086" />
-    <Map Name="wheel_implementation" Link="4_2_cycle/cycle_implementation.htm" ResolvedId="1087" />
-    <Map Name="Wheel_landscape" Link="4_2_cycle/cycle_landscape.htm" ResolvedId="1088" />
-    <Map Name="wheel_monitoring" Link="4_2_cycle/cycle_monitoring.htm" ResolvedId="1089" />
-    <Map Name="wheel_overview" Link="4_2_cycle/cycle_overview.htm" ResolvedId="1090" />
-    <Map Name="wheel_reporting" Link="4_2_cycle/cycle_reporting.htm" ResolvedId="1091" />
-    <Map Name="wheel_strategic" Link="4_2_cycle/cycle_strategic.htm" ResolvedId="1092" />
-    <Map Name="evaluate_landscape" Link="4_ext tools/evaluate_landscape.htm" ResolvedId="1093" />
-    <Map Name="models_overview" Link="4_ext tools/models_overview.htm" ResolvedId="1094" />
-    <Map Name="Behavior_FlamMap" Link="4_ext tools behavr/behavior_flammap.htm" ResolvedId="1095" />
-    <Map Name="EstLiveFuelMoisture" Link="4_3_inputs/estlivefuelmoisture.htm" ResolvedId="1005" />
-    <Map Name="FBFMs" Link="4_3_inputs/fbfms.htm" ResolvedId="1096" />
-    <Map Name="FBFMsummary" Link="4_3_inputs/fbfmsummary.htm" ResolvedId="1097" />
-    <Map Name="FuelModelsMoisture" Link="4_3_inputs/fuelmodelsmoisture.htm" ResolvedId="1098" />
-    <Map Name="Heatvalues" Link="4_3_inputs/heatvalues.htm" ResolvedId="1099" />
-    <Map Name="UnitsMeasure" Link="4_3_inputs/unitsmeasure.htm" ResolvedId="1100" />
-    <Map Name="FFA_FCCS" Link="4_ext tools fft/fft_fccs.htm" ResolvedId="1019" />
-    <Map Name="FFA_ConsumeOUT" Link="4_ext tools fft/fft_consumeout.htm" ResolvedId="1102" />
-    <Map Name="WHYITFDSS" Link="1_getting started/whyitfdss.htm" ResolvedId="1103" />
-    <Map Name="FTEM_REPORTING" Link="4_1_reporting/ftem_reporting.htm" ResolvedId="1104" />
-    <Map Name="MTBS_REPORTING" Link="4_1_reporting/mtbs_reporting.htm" ResolvedId="1105" />
-    <Map Name="TIP_CY_LANDSCAPEEVAL" Link="9_short/tip_cy_landscapeeval.htm" ResolvedId="1106" />
+    <Map Name="s_flammap_crown" Link="12_tooltips/flammap_basic/s_flammap_crown.htm" Skin="webhelp" ResolvedId="1070" />
+    <Map Name="s_flammap_fm" Link="12_tooltips/flammap_basic/s_flammap_fm.htm" Skin="webhelp" ResolvedId="1071" />
+    <Map Name="s_flammap_lndscape" Link="12_tooltips/flammap_basic/s_flammap_lndscape.htm" Skin="webhelp" ResolvedId="1072" />
+    <Map Name="s_flammap_name" Link="12_tooltips/flammap_basic/s_flammap_name.htm" Skin="webhelp" ResolvedId="1073" />
+    <Map Name="s_flammap_wind" Link="12_tooltips/flammap_basic/s_flammap_wind.htm" Skin="webhelp" ResolvedId="1074" />
+    <Map Name="s_flammap_wthr" Link="12_tooltips/flammap_basic/s_flammap_wthr.htm" Skin="webhelp" ResolvedId="1075" />
+    <Map Name="Landscape_summary" Link="2_navigating/landscape_summary.htm" ResolvedId="1076" />
+    <Map Name="s_createnew" Link="12_tooltips/landscapesummary/s_createnew.htm" Skin="webhelp" ResolvedId="1077" />
+    <Map Name="s_draw" Link="12_tooltips/landscapesummary/s_draw.htm" Skin="webhelp" ResolvedId="1078" />
+    <Map Name="s_fbfm" Link="12_tooltips/landscapesummary/s_fbfm.htm" Skin="webhelp" ResolvedId="1079" />
+    <Map Name="s_landfire" Link="12_tooltips/landscapesummary/s_landfire.htm" Skin="webhelp" ResolvedId="1080" />
+    <Map Name="s_name" Link="12_tooltips/landscapesummary/s_name.htm" Skin="webhelp" ResolvedId="1081" />
+    <Map Name="s_resolution" Link="12_tooltips/landscapesummary/s_resolution.htm" Skin="webhelp" ResolvedId="1082" />
+    <Map Name="s_w_video" Link="12_tooltips/landscapesummary/s_w video.htm" Skin="webhelp" ResolvedId="1083" />
+    <Map Name="create_a_landscape" Link="2_navigating/create_landscape.htm" ResolvedId="1084" />
+    <Map Name="report_data" Link="7_0_reporting/report_data.htm" ResolvedId="1085" />
+    <Map Name="report_overview" Link="7_0_reporting/report_overview.htm" ResolvedId="1086" />
+    <Map Name="wheel_implementation" Link="6_cycle/cycle_implementation.htm" ResolvedId="1087" />
+    <Map Name="Wheel_landscape" Link="6_cycle/cycle_landscape.htm" ResolvedId="1088" />
+    <Map Name="wheel_monitoring" Link="6_cycle/cycle_monitoring.htm" ResolvedId="1089" />
+    <Map Name="wheel_overview" Link="6_cycle/cycle_overview.htm" ResolvedId="1090" />
+    <Map Name="wheel_reporting" Link="6_cycle/cycle_reporting.htm" ResolvedId="1091" />
+    <Map Name="wheel_strategic" Link="6_cycle/cycle_strategic.htm" ResolvedId="1092" />
+    <Map Name="evaluate_landscape" Link="6_cycle_landeval/landscape_summary/eval_summarize.htm" ResolvedId="1093" />
+    <Map Name="models_overview" Link="5_pg/models_overview.htm" ResolvedId="1094" />
+    <Map Name="Behavior_FlamMap" Link="5_pg_flammap/behavior_flammap.htm" ResolvedId="1095" />
+    <Map Name="EstLiveFuelMoisture" Link="2_1_inputs/estlivefuelmoisture.htm" ResolvedId="1005" />
+    <Map Name="FBFMs" Link="2_1_inputs/fbfms.htm" ResolvedId="1096" />
+    <Map Name="FBFMsummary" Link="2_1_inputs/fbfmsummary.htm" ResolvedId="1097" />
+    <Map Name="FuelModelsMoisture" Link="2_1_inputs/fuelmodelsmoisture.htm" ResolvedId="1098" />
+    <Map Name="Heatvalues" Link="2_1_inputs/heatvalues.htm" ResolvedId="1099" />
+    <Map Name="UnitsMeasure" Link="2_1_inputs/units_measure.htm" ResolvedId="1100" />
+    <Map Name="WHYITFDSS" Link="1_getting_started/why_iftdss.htm" ResolvedId="1103" />
+    <Map Name="FTEM_REPORTING" Link="7_0_reporting/ftem_reporting.htm" ResolvedId="1104" />
+    <Map Name="MTBS_REPORTING" Link="7_0_reporting/mtbs_reporting.htm" ResolvedId="1105" />
+    <Map Name="TIP_CY_LANDSCAPEEVAL" Link="12_tooltips/tip_cy_landscapeeval.htm" ResolvedId="1106" />
+    <Map Name="Inputs_overview" Link="2_1_inputs/inputs_overview.htm" ResolvedId="1039" />
+    <Map Name="landscape_file" Link="2_1_inputs/landscape_file.htm" ResolvedId="1040" />
+    <Map Name="wheredoibegin" Link="1_getting_started/wheredoibegin.htm" ResolvedId="1042" />
+    <Map Name="usingmydata" Link="2_1_inputs/usingmydata.htm" ResolvedId="1043" />
+    <Map Name="alerts" Link="2_navigating/alerts.htm" ResolvedId="1044" />
+    <Map Name="mworkspace" Link="2_navigating/mworkspace.htm" ResolvedId="1045" />
+    <Map Name="userprofile" Link="2_navigating/userprofile.htm" ResolvedId="1046" />
+    <Map Name="About_Shapefiles" Link="3_map/about_shapefiles.htm" ResolvedId="1047" />
+    <Map Name="AddRefData" Link="3_map/addrefdata.htm" ResolvedId="1048" />
+    <Map Name="AddShapefile" Link="3_map/addshapefile.htm" ResolvedId="1049" />
+    <Map Name="allabout" Link="3_map/allabout.htm" ResolvedId="1050" />
+    <Map Name="BasemapGallery" Link="3_map/basemapgallery.htm" ResolvedId="1051" />
+    <Map Name="EditTools" Link="3_map/edittools.htm" ResolvedId="1052" />
+    <Map Name="LandscapeTools" Link="3_map/landscapetools.htm" ResolvedId="1053" />
+    <Map Name="LayerList" Link="3_map/layerlist.htm" ResolvedId="1054" />
+    <Map Name="Legend" Link="3_map/legend.htm" ResolvedId="1055" />
+    <Map Name="Measurements" Link="3_map/measurements.htm" ResolvedId="1056" />
+    <Map Name="SimltnOutputs" Link="3_map/simltnoutputs.htm" ResolvedId="1057" />
+    <Map Name="ComplexityAnalysis" Link="6_cycle_impnplan/burnplans/complexityanalysis.htm" ResolvedId="1058" />
+    <Map Name="DevelopRx" Link="6_cycle_impnplan/burnplans/developrx.htm" ResolvedId="1059" />
+    <Map Name="WriteIPFPIG" Link="6_cycle_impnplan/burnplans/writeipfpig.htm" ResolvedId="1060" />
+    <Map Name="Editing" Link="6_cycle_landeval/edit_data/editing.htm" ResolvedId="1101" />
+    <Map Name="LandscapeEdit_Rule" Link="6_cycle_landeval/edit_data/landscapeedit_rule.htm" ResolvedId="1102" />
+    <Map Name="LF_lookup_rule" Link="6_cycle_landeval/edit_data/lf_lookup_rule.htm" ResolvedId="1107" />
+    <Map Name="ffi" Link="6_cycle_monitor/data_featfiremon/ffi.htm" ResolvedId="1108" />
+    <Map Name="ftem" Link="6_cycle_monitor/data_fueltreatment/ftem.htm" ResolvedId="1109" />
+    <Map Name="ModelTreatmentOrder" Link="6_cycle_stratplan/prioritizetreatment/modeltreatmentorder.htm" ResolvedId="1110" />
+    <Map Name="CompareEdits" Link="6_cycle_stratplan/treatmentalternatives/compareedits.htm" ResolvedId="1111" />
+    <Map Name="CreateAlternatives" Link="6_cycle_stratplan/treatmentalternatives/createalternatives.htm" ResolvedId="1112" />
+    <Map Name="ModelFutureTreatments" Link="6_cycle_stratplan/yearoutplans/modelfuturetreatments.htm" ResolvedId="1113" />
+    <Map Name="burnplanning" Link="7_1_rxburnplan/burnplanning.htm" ResolvedId="1114" />
 </CatapultAliasFile>

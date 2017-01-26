@@ -1,6 +1,6 @@
 /*<meta />*/
 
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 414px)
 {
 	.search-bar
 	{
@@ -159,7 +159,7 @@
 	ul.menu._Skins_SideMenu.mc-component
 	{
 		display: none;
-		background-color: #293B49;
+		background-color: #2d3d4f;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component a

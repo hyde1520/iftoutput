@@ -56,15 +56,15 @@ ul.navigation
 	position: relative;
 	margin-top: 0;
 	margin-bottom: 0;
-	margin-left: 191px;
+	margin-left: 213px;
 	background-repeat: repeat;
 	background-position: center center;
 	color: #ffffff;
 	font-family: Arial, 'FontAwesome', Helvetica, sans-serif;
 	font-size: 16px;
-	font-weight: normal;
-	padding-left: 20px;
-	padding-right: 20px;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 ul.navigation,
@@ -80,7 +80,9 @@ ul.navigation ul
 	margin: 0;
 	padding: 10px 0 10px 0;
 	position: absolute;
-	background-color: #686868;
+	color: #000000;
+	font-weight: bold;
+	background-color: #AFBFD0;
 }
 
 ul.navigation > li > ul
@@ -100,7 +102,7 @@ ul.navigation > li.has-children:after
 	bottom: 0;
 	left: 50%;
 	margin-left: -8px;
-	border-bottom-color: #686868;
+	border-bottom-color: #AFBFD0;
 }
 
 ul.navigation ul,
@@ -119,7 +121,7 @@ ul.navigation ul ul
 {
 	top: 0;
 	left: 100%;
-	background-color: #686868;
+	background-color: #AFBFD0;
 }
 
 ul.navigation ul ul.openLeft
@@ -142,7 +144,7 @@ ul.navigation a
 	color: #ffffff;
 	font-family: Arial, 'FontAwesome', Helvetica, sans-serif;
 	font-size: 16px;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 ul.navigation li
@@ -151,6 +153,7 @@ ul.navigation li
 	list-style: none;
 	margin: 0;
 	height: 100%;
+	background-color: transparent;
 }
 
 ul.navigation li > a
@@ -188,7 +191,15 @@ ul.navigation > li.has-children:hover:after
 
 ul.navigation li:hover
 {
-	background-color: transparent;
+	background-repeat: repeat;
+	background: #293b49;
+	background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+	background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+	background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+	background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+	background: linear-gradient(top, transparent 0%,transparent 100%);
+	-pie-background: linear-gradient(transparent, transparent);
 }
 
 ul.navigation ul > li
@@ -209,7 +220,15 @@ ul.navigation ul > li > a
 
 ul.navigation ul > li:hover
 {
-	background-color: #4b4b4b;
+	background-repeat: repeat;
+	background: #4b4b4b;
+	background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+	background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+	background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+	background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+	background: linear-gradient(top, transparent 0%,transparent 100%);
+	-pie-background: linear-gradient(transparent, transparent);
 }
 
 #resultList .glossary .term a:visited
@@ -301,9 +320,12 @@ nav.tab-bar
 	line-height: inherit;
 	padding: 10px 0;
 	display: block;
+	background-repeat: no-repeat;
+	background-position: center top;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: #293B49;
+	background: #2e3e4f none;
+	-pie-background: #2e3e4f;
 }
 
 nav.tab-bar .menu-icon
@@ -332,14 +354,14 @@ nav.tab-bar .menu-icon
 	margin: 0;
 	position: absolute;
 	display: block;
-	width: 191px;
+	width: 213px;
 	height: 27px;
 	top: 50%;
 	bottom: auto;
 	margin-top: -13.5px;
 	left: 0;
-	background: transparent url('Images/IFTDSS_support_102716.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/IFTDSS_support_102716.png') no-repeat center center;
+	background: transparent url('Images/iftdss_helpcenter_2_50p.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/iftdss_helpcenter_2_50p.png') no-repeat center center;
 }
 
 /* Topbar Menu Functionality Styles */
@@ -503,7 +525,8 @@ html.pulseTopic .main-section .row.outer-row
 
 ul.navigation ul a
 {
-	
+	color: #000000;
+	font-weight: bold;
 }
 
 ul.navigation ul ul a
@@ -513,7 +536,7 @@ ul.navigation ul ul a
 
 ul.navigation ul ul ul
 {
-	background-color: #686868;
+	background-color: #AFBFD0;
 }
 
 ul.navigation ul ul ul a
@@ -523,7 +546,7 @@ ul.navigation ul ul ul a
 
 ul.navigation ul ul ul ul
 {
-	background-color: #686868;
+	background-color: #AFBFD0;
 }
 
 ul.navigation ul ul ul ul a
@@ -549,17 +572,41 @@ ul.navigation ul ul ul ul > li > a
 
 ul.navigation ul ul > li:hover
 {
-	background-color: #4b4b4b;
+	background-repeat: repeat;
+	background: #4b4b4b;
+	background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+	background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+	background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+	background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+	background: linear-gradient(top, transparent 0%,transparent 100%);
+	-pie-background: linear-gradient(transparent, transparent);
 }
 
 ul.navigation ul ul ul > li:hover
 {
-	background-color: #4b4b4b;
+	background-repeat: repeat;
+	background: #4b4b4b;
+	background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+	background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+	background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+	background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+	background: linear-gradient(top, transparent 0%,transparent 100%);
+	-pie-background: linear-gradient(transparent, transparent);
 }
 
 ul.navigation ul ul ul ul > li:hover
 {
-	background-color: #4b4b4b;
+	background-repeat: repeat;
+	background: #4b4b4b;
+	background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+	background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+	background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+	background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+	background: linear-gradient(top, transparent 0%,transparent 100%);
+	-pie-background: linear-gradient(transparent, transparent);
 }
 
 .row.nav-search

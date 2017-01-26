@@ -109,7 +109,7 @@ div.noteImportant
 
 div.noteIFTDSS
 {
-	background-color: #293B49;
+	background-color: #2d3d4f;
 	background-image: url('../images/noteicon_orange.png');
 	background-repeat: no-repeat;
 	border-radius: 6px;
@@ -126,26 +126,21 @@ div.noteIFTDSS
 	mc-auto-number-format: '{b}Note: {/b}';
 }
 
-div.note
-{
-	background-color: #47484a;
-	background-image: url('../images/noteicon_orange.png');
-	background-repeat: no-repeat;
-	border: solid 1px #404040;
-	border-radius: 6px;
-	color: #b3b3b3;
-	padding-bottom: 10px;
-	padding-left: 40px;
-	padding-right: 10px;
-	padding-top: 10px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	margin-top: 10px;
-}
-
 .noteInDiv
 {
 	mc-auto-number-format: '{b}{color #e67d27}Note: {/color}{/b}';
+}
+
+.alertcomingsoon
+{
+	color: black;
+	background-color: #afbfd0;
+	border: solid 3px #2d3d4f;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding: 14px 20px;
+	mc-auto-number-format: '{b}More Functionality to Come! {/b}';
 }
 
 div.quotation
@@ -387,6 +382,11 @@ p
 	margin-top: 16px;
 }
 
+.comingsoon
+{
+	color: #8d8d8d;
+}
+
 p.CompanyInformation1
 {
 	margin-bottom: 4px;
@@ -551,12 +551,27 @@ p.TableTextLightEmphasis
 	margin-top: 8px;
 }
 
+.comment
+{
+	color: purple;
+}
+
 p.TOCHeading
 {
 	
 }
 
 span.Emphasis
+{
+	font-weight: bold;
+}
+
+span.UIcomponent
+{
+	font-weight: bold;
+}
+
+span.ListBegin
 {
 	font-weight: bold;
 }
@@ -603,7 +618,7 @@ tr
 
 ul
 {
-	list-style-image: url('../images/bullet1.png');
+	
 }
 
 ul.FirstLevelLessIndentation
@@ -614,7 +629,6 @@ ul.FirstLevelLessIndentation
 
 ul ul
 {
-	list-style-image: url('../images/bullet2.png');
 	margin-left: -10px;
 }
 
@@ -1056,5 +1070,10 @@ html.templateTopic div.sideContent
 	margin: 0;
 	overflow: visible;
 	clip: auto;
+}
+
+html.FieldLeveltopics
+{
+	mc-master-page: url('../masterpages/fieldleveltopics.flmsp');
 }
 

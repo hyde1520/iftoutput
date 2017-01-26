@@ -1,24 +1,24 @@
 /*<meta />*/
 
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 414px)
 {
 	nav.tab-bar
 	{
 		background-repeat: no-repeat;
 		background-position: center top;
-		background-color: #293B49;
+		background: #2e3e4f none;
 	}
 
 	.tab-bar-section a.logo
 	{
 		background-position: center center;
 		background-repeat: no-repeat;
-		width: 191px;
+		width: 213px;
 		height: 27px;
 		top: 0;
 		bottom: auto;
 		margin-top: 0;
-		background: transparent url('Images/IFTDSS_support_102716.png') no-repeat center center;
+		background: transparent url('Images/iftdss_helpcenter_2_50p.png') no-repeat center center;
 	}
 
 	.search-submit
