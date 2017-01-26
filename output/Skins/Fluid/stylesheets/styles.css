@@ -360,8 +360,8 @@ nav.tab-bar .menu-icon
 	bottom: auto;
 	margin-top: -13.5px;
 	left: 0;
-	background: transparent url('Images/iftdss_helpcenter_2_50p.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/iftdss_helpcenter_2_50p.png') no-repeat center center;
+	background: transparent url('Images/iftdss_helpcenter_2_50p_1.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/iftdss_helpcenter_2_50p_1.png') no-repeat center center;
 }
 
 /* Topbar Menu Functionality Styles */

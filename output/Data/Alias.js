@@ -93,7 +93,7 @@ xmlAliasData += '    <Map Name=\"LandscapeEdit_Rule\" Link=\"6_cycle_landeval/ed
 xmlAliasData += '    <Map Name=\"LF_lookup_rule\" Link=\"6_cycle_landeval/edit_data/lf_lookup_rule.htm\" ResolvedId=\"1107\" />';
 xmlAliasData += '    <Map Name=\"ffi\" Link=\"6_cycle_monitor/data_featfiremon/ffi.htm\" ResolvedId=\"1108\" />';
 xmlAliasData += '    <Map Name=\"ftem\" Link=\"6_cycle_monitor/data_fueltreatment/ftem.htm\" ResolvedId=\"1109\" />';
-xmlAliasData += '    <Map Name=\"ModelTreatmentOrder\" Link=\"6_cycle_stratplan/prioritizetreatment/modeltreatmentorder.htm\" ResolvedId=\"1110\" />';
+xmlAliasData += '    <Map Name=\"ModelTreatmentOrder\" Link=\"6_cycle_stratplan/prioritizetreatment/prioritzetreatment.htm\" ResolvedId=\"1110\" />';
 xmlAliasData += '    <Map Name=\"CompareEdits\" Link=\"6_cycle_stratplan/treatmentalternatives/compareedits.htm\" ResolvedId=\"1111\" />';
 xmlAliasData += '    <Map Name=\"CreateAlternatives\" Link=\"6_cycle_stratplan/treatmentalternatives/createalternatives.htm\" ResolvedId=\"1112\" />';
 xmlAliasData += '    <Map Name=\"ModelFutureTreatments\" Link=\"6_cycle_stratplan/yearoutplans/modelfuturetreatments.htm\" ResolvedId=\"1113\" />';
