@@ -674,10 +674,10 @@ ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 ._Skins_HomeSearchBar.mc-component .search-field
 {
 	height: 40px;
-	border-top: solid 4px #000000;
-	border-right: solid 4px #000000;
-	border-bottom: solid 4px #000000;
-	border-left: solid 4px #000000;
+	border-top: solid 3px #2e3e4f;
+	border-right: solid 3px #2e3e4f;
+	border-bottom: solid 3px #2e3e4f;
+	border-left: solid 3px #2e3e4f;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
 	border-bottom-right-radius: 25px;
@@ -691,8 +691,8 @@ ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 ._Skins_HomeSearchBar.mc-component .search-filter
 {
 	height: 40px;
-	border-top: solid 4px #000000;
-	border-bottom: solid 4px #000000;
+	border-top: solid 3px #2e3e4f;
+	border-bottom: solid 3px #2e3e4f;
 	border-right: solid 1px #000000;
 	border-left: solid 1px #000000;
 	width: 45px;
@@ -703,9 +703,9 @@ ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 ._Skins_HomeSearchBar.mc-component .search-submit
 {
 	height: 40px;
-	border-top: solid 4px #000000;
-	border-right: solid 4px #000000;
-	border-bottom: solid 4px #000000;
+	border-top: solid 3px #2e3e4f;
+	border-right: solid 3px #2e3e4f;
+	border-bottom: solid 3px #2e3e4f;
 	border-top-right-radius: 25px;
 	border-bottom-right-radius: 25px;
 	width: 56px;

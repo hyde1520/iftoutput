@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],u:['../content/0_iftdss/about iftdss.htm'],s:['+','foliar','remain'],p:[['+',5],['annuals',52],['compacted',59],['evaluating',70],['gs3',59],['laid',61],['new',63],['propose',74],['stored',54],['treatments',27]]});
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../content/0_iftdss/about_iftdss.htm'],s:['+','foot','request'],p:[['+',5],['any',84],['completed',71],['existing',82],['have',5],['large',84],['occurs',73],['recovery',40],['surface',36],['upload',56]]});
