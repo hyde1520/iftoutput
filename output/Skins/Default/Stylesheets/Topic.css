@@ -497,7 +497,7 @@ div.MCBreadcrumbsBox_0
 .dropDownHotspot
 {
 	color: #404040;
-	font-size: 0.9em;
+	font-size: 1.0em;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -505,7 +505,7 @@ div.MCBreadcrumbsBox_0
 .dropDownHotspot:link
 {
 	color: #404040;
-	font-size: 0.9em;
+	font-size: 1.0em;
 	font-weight: bold;
 	text-decoration: none;
 }
