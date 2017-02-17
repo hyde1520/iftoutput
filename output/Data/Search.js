@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0,90],u:['../content/aboutiftdss/aboutiftdss.htm'],s:['+','featur','predomin'],p:[['+',5],['and',76],['capable',75],['dnbr',37],['from',0],['in',73],['low',75],['off',48],['refined',97],['sts',102],['tools',100],['year',110]]});
+define({r:0.5,st:'Stem',n:1,t:[0,90],u:['../content/aboutiftdss/aboutiftdss.htm'],s:['0','februari','prepar'],p:[['0',3],['and',81],['carol',73],['document',74],['from',37],['in',75],['low',108],['on',4],['register',1],['studio',61],['topic',6],['you',16]]});
