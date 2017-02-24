@@ -123,4 +123,5 @@
     <Map Name="icons1" Link="resources/stylesheets/icons/icons.html" ResolvedId="1134" />
     <Map Name="FireBehavior" Link="popovertips/firebehavior.htm" ResolvedId="1135" />
     <Map Name="ModelingPlayground" Link="popovertips/modelingplayground.htm" ResolvedId="1136" />
+    <Map Name="Auto97Summary" Link="pclandscapeeval/auto97summary.htm" ResolvedId="1137" />
 </CatapultAliasFile>

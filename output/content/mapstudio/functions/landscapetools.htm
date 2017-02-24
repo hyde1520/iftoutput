@@ -310,9 +310,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <h1><a name="kanchor81"></a>Landscape Tools</h1>
+                                        <h1><a name="kanchor82"></a>Landscape Tools</h1>
                                         <p>Landscape Tools enables you to view or create new landscape files from within <span class="GeneralMapStudio">Map Studio</span>. The options available include:</p>
-                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Add to Map</a></span>
+                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Add an Existing Landscape to the Map</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <p>The <span class="UIcomponent">Add to Map</span> option lists all the available landscape files for display. </p>
                                                 <p>&#160;</p>
@@ -329,31 +329,34 @@
                                                 <p>&#160;</p>
                                             </div>
                                         </div>
-                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Create New </a></span>
+                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Create a New Landscape</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>The <b>Create New</b> option allows you to download a new landscape file from <a href="../../references/landfire.htm">LANDFIRE</a>. </p>
+                                                <p>To generate a landscape from within <span class="GeneralMapStudio">Map Studio</span> you will use the options in the <span class="UIcomponent">Landscape Tools</span> button, under the <span class="UIcomponent">Create new</span> tab.</p>
                                                 <p>
-                                                    <img src="../../resources/images/mapstudio/landscapetools_createnw1_306x462.png" alt="The 'create new' option allows you to download LANDFIRE landscape data" style="width: 306;height: 462;" />
+                                                    <img src="../../resources/images/lcp_gen_smmry/mapstudio_createnew_636x449.png" style="width: 636;height: 449;" />
                                                 </p>
-                                                <p>To begin creating your landscape, either </p>
-                                                <ol style="list-style-type: lower-alpha;">
-                                                    <li value="1">select the draw button, scroll to the map, and hold down the left mouse key to draw a rectangle around your chosen area, or</li>
-                                                    <li value="2">enter your landscape coordinates in the fields provided.</li>
-                                                </ol>
                                                 <p>
-                                                    <img src="../../resources/images/mapstudio/landscapetools_createnw2_301x454.png" alt="you may select your area by using the draw tool or entering the coordinates in the fields provided" style="width: 301;height: 454;" />
+                                                    <img src="../../resources/images/lcp_gen_smmry/lcp_mapstudio_steps.png" alt="Draw and dropdown options under the 'create new' tab let you generate a landscape from within map studio." />
                                                 </p>
-                                                <p>Once your landscape location is specified, follow the below steps to download your landscape file:</p>
-                                                <ol>
-                                                    <li value="1">Specify the version of LANDFIRE data you would like to download. In the image below LANDFIRE data reflecting conditions from 2012 is selected.</li>
-                                                    <li value="2">Choose the <a href="../files/fbfminfo.htm">Fire Behavior Fuel Model</a> you would like represented. Not sure whether to choose Fuel Model 40 or 13? Visit the Fuel Model Comparison Topic to read about the different between the two. Visit the Fuel Model Topic to learn about which fuel model type to select.</li>
-                                                    <li value="3">Select the resolution for your landscape. The default value is 30 meters.</li>
-                                                    <li value="4">Give your landscape a descriptive name </li>
-                                                    <li value="5">Specify the folder in which you would like to save the landscape file</li>
-                                                    <li value="6">Once all fields are complete, the <span class="UIcomponent">Create</span> option will appear. Select <span class="UIcomponent">Create</span> to download your landscape file data.</li>
+                                                <ol style="list-style-type: upper-alpha;">
+                                                    <li value="1">Use the <span class="GeneralMapStudio">Map Studio</span> tools such as zoom, basemap layers, etc. to locate your desired area.</li>
+                                                    <li value="2">Click the <span class="UIcomponent">Select draw mode</span>, mouse to your location on the map, hold down the left mouse key, and draw a rectangle around your desired area, releasing the button when you are finished.</li>
+                                                    <li value="3">Alternatively, if you wish to enter exact coordinates rather than draw a box around your area, you may do so by entering the coordinates, in degrees, for the west, east, south, and north bounds of your desired area. </li>
+                                                    <li value="4">Select the version of LANDFIRE data you would like to download.</li>
+                                                    <li value="5">Select the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) you would like included in your landscape file.</li>
+                                                    <li value="6">Specify the resolution for your landscape file. <br /><div class="noteIFTDSS" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>The default, and standard resolution for most operations in <span class="GeneralProductName">IFTDSS</span> is 30 meters. We recommend leaving this setting at the default unless you have a specific reason for altering it.</div><br /></li>
+                                                    <li value="7">Give your landscape a descriptive name, this will be helpful as you accumulate more landscape files in <span class="GeneralProductName">IFTDSS</span>.</li>
+                                                    <li value="8">Select the folder in which you would like to store your landscape file.</li>
+                                                    <li value="9">Select <span class="UIcomponent">Create</span> to download your landscape file.</li>
                                                 </ol>
+                                                <p>&#160;</p>
+                                                <p>Once you select <span class="UIcomponent">Create</span> a message will appear at the top of the <span class="UIcomponent">Landscape Tools</span> box to confirm your landscape is being created</p>
                                                 <p>
-                                                    <img src="../../resources/images/mapstudio/landscapetools_createnw3.png" alt="Provide information in the fields provided and select 'create' to donwload your landscape file" />
+                                                    <img src="../../resources/images/lcp_gen_smmry/landscape_submitted_confirmation.png" alt="confirmation message that a landsape file is in the process of being downloaded" />
+                                                </p>
+                                                <p>It may take a couple minutes before your landscape is available for viewing. When the landscape file is fully downloaded, you will be notified via the Message Center in the top right of your screen.</p>
+                                                <p>
+                                                    <img src="../../resources/images/lcp_gen_smmry/landscape_created_confirmation.png" alt="Message center confirmation that a landscape file was successfully created" />
                                                 </p>
                                             </div>
                                         </div>

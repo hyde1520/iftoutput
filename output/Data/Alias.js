@@ -124,5 +124,6 @@ xmlAliasData += '    <Map Name=\"WorkshpMain\" Link=\"workshops/workshpmain.htm\
 xmlAliasData += '    <Map Name=\"icons1\" Link=\"resources/stylesheets/icons/icons.html\" ResolvedId=\"1134\" />';
 xmlAliasData += '    <Map Name=\"FireBehavior\" Link=\"popovertips/firebehavior.htm\" ResolvedId=\"1135\" />';
 xmlAliasData += '    <Map Name=\"ModelingPlayground\" Link=\"popovertips/modelingplayground.htm\" ResolvedId=\"1136\" />';
+xmlAliasData += '    <Map Name=\"Auto97Summary\" Link=\"pclandscapeeval/auto97summary.htm\" ResolvedId=\"1137\" />';
 xmlAliasData += '</CatapultAliasFile>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);
