@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0,90],u:['../content/aboutiftdss/aboutiftdss.htm'],s:['0','few','prioriti'],p:[['0',3],['and',98],['chains',61],['dropdown',2],['fuel',76],['indicating',57],['march',82],['organized',75],['rocky',40],['terrain',44],['us',82]]});
+define({r:0.5,st:'Stem',n:1,t:[0,88],u:['../content/aboutiftdss/aboutiftdss.htm'],s:['+','extent','plaintext'],p:[['+',50],['and',80],['candidate',114],['directory',65],['forbs',80],['improvements',115],['live',80],['of',80],['questions',102],['stages',89],['to',42],['with',40]]});
