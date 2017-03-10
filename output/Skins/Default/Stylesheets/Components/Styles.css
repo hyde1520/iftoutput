@@ -249,27 +249,30 @@ ul.menu li > a.selected
 ul.menu._Skins_SideMenu.mc-component li > a:hover
 {
 	color: #000000;
-	background-color: #e67d27;
+	background-color: #AFBFD0;
 }
 
 ul.menu._Skins_SideMenu.mc-component ul > li > a:hover
 {
-	background-color: #e67d27;
+	color: #000000;
+	background-color: #AFBFD0;
 }
 
 ul.menu._Skins_SideMenu.mc-component ul ul > li > a:hover
 {
-	background-color: #e67d27;
+	color: #000000;
+	background-color: #AFBFD0;
 }
 
 ul.menu._Skins_SideMenu.mc-component ul ul ul > li > a:hover
 {
-	background-color: #e67d27;
+	background-color: #AFBFD0;
 }
 
 ul.menu._Skins_SideMenu.mc-component ul ul ul ul > li > a:hover
 {
-	background-color: #e67d27;
+	color: #000000;
+	background-color: #AFBFD0;
 }
 
 #resultList.communitySearch .title
@@ -659,8 +662,9 @@ ul.menu._Skins_SideMenu.mc-component li > a.selected
 
 ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 {
+	color: #000000;
 	font-weight: bold;
-	background-color: #e67d27;
+	background-color: #AFBFD0;
 }
 
 .search-bar._Skins_HomeSearchBar.mc-component

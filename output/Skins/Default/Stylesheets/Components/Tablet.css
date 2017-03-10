@@ -211,36 +211,36 @@
 
 	ul.menu._Skins_SideMenu.mc-component li > a:hover
 	{
-		background-color: #e67d27;
+		background-color: #AFBFD0;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul > li > a:hover
 	{
 		background-repeat: repeat;
-		background-color: #e67d27;
+		background-color: #AFBFD0;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul ul > li > a:hover
 	{
 		background-repeat: repeat;
-		background-color: #e67d27;
+		background-color: #AFBFD0;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul ul ul > li > a:hover
 	{
 		background-repeat: repeat;
-		background-color: #e67d27;
+		background-color: #AFBFD0;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul ul ul ul > li > a:hover
 	{
 		background-repeat: repeat;
-		background-color: #e67d27;
+		background-color: #AFBFD0;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 	{
-		background-color: #e67d27;
+		background-color: #AFBFD0;
 	}
 
 	.search-bar._Skins_HomeSearchBar.mc-component

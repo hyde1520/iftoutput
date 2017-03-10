@@ -124,4 +124,18 @@
     <Map Name="FireBehavior" Link="popovertips/firebehavior.htm" ResolvedId="1135" />
     <Map Name="ModelingPlayground" Link="popovertips/modelingplayground.htm" ResolvedId="1136" />
     <Map Name="Auto97Summary" Link="pclandscapeeval/auto97summary.htm" ResolvedId="1137" />
+    <Map Name="Modelsmoretocome" Link="aboutiftdss/modelsmoretocome.htm" ResolvedId="1138" />
+    <Map Name="PlaceHolder" Link="aboutiftdss/placeholder.htm" ResolvedId="1139" />
+    <Map Name="AreasofInterest" Link="mapstudio/files/areasofinterest.htm" ResolvedId="1140" />
+    <Map Name="ShapefileRepair" Link="mapstudio/files/shapefilerepair.htm" ResolvedId="1141" />
+    <Map Name="AttributeTable" Link="mapstudio/functions/attributetable.htm" ResolvedId="1142" />
+    <Map Name="Draw" Link="mapstudio/functions/draw.htm" ResolvedId="1143" />
+    <Map Name="FilterAttributeTable" Link="mapstudio/functions/filterattributetable.htm" ResolvedId="1144" />
+    <Map Name="GetCoordinates" Link="mapstudio/functions/getcoordinates.htm" ResolvedId="1145" />
+    <Map Name="Identify" Link="mapstudio/functions/identify.htm" ResolvedId="1146" />
+    <Map Name="SearchESRI" Link="mapstudio/functions/searchesri.htm" ResolvedId="1147" />
+    <Map Name="ShowMapOverview" Link="mapstudio/functions/showmapoverview.htm" ResolvedId="1148" />
+    <Map Name="Swipe" Link="mapstudio/functions/swipe.htm" ResolvedId="1149" />
+    <Map Name="ViewShapefileOnMap" Link="mapstudio/functions/viewshapefileonmap.htm" ResolvedId="1150" />
+    <Map Name="TreatmentRuleBackground" Link="pclandscapeeval/treatmentrulebackground.htm" ResolvedId="1151" />
 </CatapultAliasFile>
