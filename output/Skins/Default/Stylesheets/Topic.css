@@ -560,6 +560,57 @@ iframe.youtube-player_0
 	color: #e67d27;
 }
 
+.popup
+{
+	color: #2D8DCC;
+}
+
+.popup:link
+{
+	color: #2D8DCC;
+}
+
+.popupHead
+{
+	color: #2D8DCC;
+	font-weight: bold;
+}
+
+.popupHead:link
+{
+	color: #2D8DCC;
+	font-weight: bold;
+}
+
+.popup:hover
+{
+	color: #2D8DCC;
+}
+
+.popup:focus
+{
+	color: #2D8DCC;
+}
+
+.popupBody
+{
+	color: #000000;
+	background-color: #dcdcdc;
+	border: solid 1px #000000;
+	margin: 0px;
+	padding: 5px;
+}
+
+.MCTextPopupArrow
+{
+	border-bottom-color: #dcdcdc;
+}
+
+.MCTextPopupBodyBottom .MCTextPopupArrow
+{
+	border-top-color: #dcdcdc;
+}
+
 iframe.youtube-player_video_0
 {
 	display: inline-block;
@@ -717,57 +768,6 @@ div.MCSlide
 .mc-thumbnail a.active img
 {
 	border: solid 1px #5280DD;
-}
-
-.popup
-{
-	color: #2D8DCC;
-}
-
-.popup:link
-{
-	color: #2D8DCC;
-}
-
-.popupHead
-{
-	color: #2D8DCC;
-	font-weight: bold;
-}
-
-.popupHead:link
-{
-	color: #2D8DCC;
-	font-weight: bold;
-}
-
-.popup:hover
-{
-	color: #2D8DCC;
-}
-
-.popup:focus
-{
-	color: #2D8DCC;
-}
-
-.popupBody
-{
-	color: #000000;
-	background-color: #dcdcdc;
-	border: solid 1px #000000;
-	margin: 0px;
-	padding: 5px;
-}
-
-.MCTextPopupArrow
-{
-	border-bottom-color: #dcdcdc;
-}
-
-.MCTextPopupBodyBottom .MCTextPopupArrow
-{
-	border-top-color: #dcdcdc;
 }
 
 .MCWebHelpFramesetLink a
