@@ -127,7 +127,6 @@ xmlAliasData += '    <Map Name=\"ModelingPlayground\" Link=\"popovertips/modelin
 xmlAliasData += '    <Map Name=\"Auto97Summary\" Link=\"pclandscapeeval/auto97summary.htm\" ResolvedId=\"1137\" />';
 xmlAliasData += '    <Map Name=\"Modelsmoretocome\" Link=\"aboutiftdss/modelsmoretocome.htm\" ResolvedId=\"1138\" />';
 xmlAliasData += '    <Map Name=\"PlaceHolder\" Link=\"aboutiftdss/placeholder.htm\" ResolvedId=\"1139\" />';
-xmlAliasData += '    <Map Name=\"AreasofInterest\" Link=\"mapstudio/files/areasofinterest.htm\" ResolvedId=\"1140\" />';
 xmlAliasData += '    <Map Name=\"ShapefileRepair\" Link=\"mapstudio/files/shapefilerepair.htm\" ResolvedId=\"1141\" />';
 xmlAliasData += '    <Map Name=\"AttributeTable\" Link=\"mapstudio/functions/attributetable.htm\" ResolvedId=\"1142\" />';
 xmlAliasData += '    <Map Name=\"Draw\" Link=\"mapstudio/functions/draw.htm\" ResolvedId=\"1143\" />';
@@ -139,5 +138,7 @@ xmlAliasData += '    <Map Name=\"ShowMapOverview\" Link=\"mapstudio/functions/sh
 xmlAliasData += '    <Map Name=\"Swipe\" Link=\"mapstudio/functions/swipe.htm\" ResolvedId=\"1149\" />';
 xmlAliasData += '    <Map Name=\"ViewShapefileOnMap\" Link=\"mapstudio/functions/viewshapefileonmap.htm\" ResolvedId=\"1150\" />';
 xmlAliasData += '    <Map Name=\"TreatmentRuleBackground\" Link=\"pclandscapeeval/treatmentrulebackground.htm\" ResolvedId=\"1151\" />';
+xmlAliasData += '    <Map Name=\"IFTDSSOverview\" Link=\"getstarted/iftdssoverview.htm\" ResolvedId=\"1152\" />';
+xmlAliasData += '    <Map Name=\"SpatialExtent\" Link=\"mapstudio/files/spatialextent.htm\" ResolvedId=\"1153\" />';
 xmlAliasData += '</CatapultAliasFile>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);

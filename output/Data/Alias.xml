@@ -126,7 +126,6 @@
     <Map Name="Auto97Summary" Link="pclandscapeeval/auto97summary.htm" ResolvedId="1137" />
     <Map Name="Modelsmoretocome" Link="aboutiftdss/modelsmoretocome.htm" ResolvedId="1138" />
     <Map Name="PlaceHolder" Link="aboutiftdss/placeholder.htm" ResolvedId="1139" />
-    <Map Name="AreasofInterest" Link="mapstudio/files/areasofinterest.htm" ResolvedId="1140" />
     <Map Name="ShapefileRepair" Link="mapstudio/files/shapefilerepair.htm" ResolvedId="1141" />
     <Map Name="AttributeTable" Link="mapstudio/functions/attributetable.htm" ResolvedId="1142" />
     <Map Name="Draw" Link="mapstudio/functions/draw.htm" ResolvedId="1143" />
@@ -138,4 +137,6 @@
     <Map Name="Swipe" Link="mapstudio/functions/swipe.htm" ResolvedId="1149" />
     <Map Name="ViewShapefileOnMap" Link="mapstudio/functions/viewshapefileonmap.htm" ResolvedId="1150" />
     <Map Name="TreatmentRuleBackground" Link="pclandscapeeval/treatmentrulebackground.htm" ResolvedId="1151" />
+    <Map Name="IFTDSSOverview" Link="getstarted/iftdssoverview.htm" ResolvedId="1152" />
+    <Map Name="SpatialExtent" Link="mapstudio/files/spatialextent.htm" ResolvedId="1153" />
 </CatapultAliasFile>

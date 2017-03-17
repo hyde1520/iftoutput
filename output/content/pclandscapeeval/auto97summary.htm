@@ -88,11 +88,11 @@
                                                 </li>
                                                 <li><a href="../getstarted/accountsetup.htm">Setting up an Account</a>
                                                 </li>
-                                                <li><a href="../getstarted/gettinghelp.htm">Getting Help</a>
-                                                </li>
-                                                <li><a href="../getstarted/navigatingiftdss.htm">How IFTDSS is Organized</a>
+                                                <li><a href="../getstarted/iftdssoverview.htm">IFTDSS Overview</a>
                                                 </li>
                                                 <li><a href="../getstarted/navigatingiftdss.htm">Navigate IFTDSS</a>
+                                                </li>
+                                                <li><a href="../getstarted/gettinghelp.htm">Getting Help</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -222,16 +222,6 @@
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li class="has-children"><a href="#">Scale Walkthroughs</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="../aboutiftdss/placeholder.htm">Burn Unit Level</a>
-                                                        </li>
-                                                        <li><a href="../aboutiftdss/placeholder.htm">Project Level</a>
-                                                        </li>
-                                                        <li><a href="../aboutiftdss/placeholder.htm">Landscape Level</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
                                                 <li><a href="../concepts/usingmydata.htm">Use My Own Data</a>
                                                 </li>
                                             </ul>
@@ -337,10 +327,9 @@
                                             </div>
                                         </div>
                                         <h1>Auto97 Summary</h1>
-                                        <p><span class="comment" data-mc-conditions="General.DeveloperNotes">IN&#160;PROGRESS -JH 3/6/17</span>
-                                        </p>
-                                        <p>The Auto97 Summary feature creates a fire behavior summary based on the highest 97th percentile of fire weather. IFTDSS uses your landscape file and automatically gathers 97th percentile weather information from the nearest Remote Automatic Weather Station (<a href="http://www.raws.dri.edu/">RAWS</a>).</p>
-                                        <h2>Inputs - Fuels</h2>
+                                        <p>The Auto97 Summary feature creates a fire behavior summary based on the highest 97th percentile of fire weather. <span class="GeneralProductName">IFTDSS</span> uses your landscape file and automatically gathers 97th percentile weather information from the nearest Remote Automatic Weather Station (<a href="http://www.raws.dri.edu/">RAWS</a>) to run fire behavior and summarize the outputs.</p>
+                                        <h2>Inputs</h2>
+                                        <h3> Fuels</h3>
                                         <p>Inputs are automatically drawn from your Landscape file and include:</p>
                                         <ul>
                                             <li value="1">Fuel Model</li>
@@ -352,10 +341,9 @@
                                             <li value="7">Slope (degrees)</li>
                                             <li value="8">Elevation (meters)</li>
                                         </ul>
-                                        <h2>Inputs - fuel moisture and weather</h2>
                                         <h3>Weather (fuel moistures)</h3>
-                                        <p>Uses average 97th percentile Energy Release Component (ERC-G) live and dead fuel moisture contents from the closest RAWS. Closest is determined using the algorithm from the Wildland Fire Decision Supoprt System (WFDSS) which minimizes horizontal and vertical distances.</p>
-                                        <h2>Winds</h2>
+                                        <p>Uses average 97th percentile Energy Release Component (ERC-G) live and dead fuel moisture contents from the closest RAWS. Closest is determined using the algorithm from the Wildland Fire Decision Support System (WFDSS) which minimizes horizontal and vertical distances.</p>
+                                        <h3>Winds</h3>
                                         <p>The month of the peak ERC-G plus the months before and after that date (three total months) are summarized into a table. Table cells contain the percentage of observations for the normal burning period (1200-2000 hrs) as follows:</p>
                                         <table style="width: 80%;">
                                             <col style="width: 74px;" />
@@ -370,8 +358,8 @@
                                             <col style="width: 45px;" />
                                             <tbody>
                                                 <tr>
-                                                    <td>&#160;</td>
-                                                    <td>mid-point</td>
+                                                    <td>Wind Speed</td>
+                                                    <td>mid-point wind speed</td>
                                                     <td>N</td>
                                                     <td>NE</td>
                                                     <td>E</td>
@@ -418,16 +406,16 @@
                                                     <td>11.1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>13-18</td>
-                                                    <td>15</td>
-                                                    <td>&#160;</td>
-                                                    <td>&#160;</td>
-                                                    <td>0.1</td>
-                                                    <td>&#160;</td>
-                                                    <td>0.2</td>
-                                                    <td>0.2</td>
-                                                    <td>2.5</td>
-                                                    <td>2.1</td>
+                                                    <td style="background-color: #ffff00;">13-18</td>
+                                                    <td style="background-color: #ffff00;">15</td>
+                                                    <td style="background-color: #ffff00;">&#160;</td>
+                                                    <td style="background-color: #ffff00;">&#160;</td>
+                                                    <td style="background-color: #ffff00;">0.1</td>
+                                                    <td style="background-color: #ffff00;">&#160;</td>
+                                                    <td style="background-color: #ffff00;">0.2</td>
+                                                    <td style="background-color: #ffff00;">0.2</td>
+                                                    <td style="background-color: #ffff00;">2.5</td>
+                                                    <td style="background-color: #ffff00;">2.1</td>
                                                 </tr>
                                                 <tr>
                                                     <td>19-24</td>
@@ -493,7 +481,7 @@
                                         </table>
                                         <p>Wind speed and direction is selected from the table as follows:</p>
                                         <ul>
-                                            <li value="1">The row with 97th percentile speed is identified (13-19 in the above example),</li>
+                                            <li value="1">The row with 97th percentile speed is identified (13-18 in the above example),</li>
                                             <li value="2">the mid-point wind speed (15 mph in this case) is converted to 1 minute average (20 mph using Table 1 <i>from</i> <a href="../references/referencelist.htm#CrosbyandChandler2004">Crosby and Chandler 2004</a>),</li>
                                             <li value="3">the cell with the largest value for that row is used as the direction (west in this example),</li>
                                             <li value="4">the resultant wind speed and direction is used as input for Wind Ninja to create the wind grids used in the run.</li>
@@ -508,7 +496,7 @@
                                             <li value="5">Crown State (crown fire activity, No Fire, Surface Fire, Passive Fire)</li>
                                         </ul>
                                         <h2>Exporting</h2>
-                                        <p>Each set of outputs may be printed, or saved to your computer for use outside of <span class="GeneralProductName">IFTDSS</span> if desired</p>
+                                        <p>Each set of outputs may be printed, or saved to your computer for use outside of <span class="GeneralProductName">IFTDSS</span> if desired.</p>
                                     </div>
                                 </div>
                             </div>
