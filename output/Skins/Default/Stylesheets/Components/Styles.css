@@ -713,8 +713,8 @@ ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 	border-top-right-radius: 25px;
 	border-bottom-right-radius: 25px;
 	width: 56px;
-	background: #e67d27 url('Images/SearchIcon.png') no-repeat center center;
-	-pie-background: #e67d27 url('Skins/Default/Stylesheets/Components/Images/SearchIcon.png') no-repeat center center;
+	background: #E88127 url('Images/SearchIcon.png') no-repeat center center;
+	-pie-background: #E88127 url('Skins/Default/Stylesheets/Components/Images/SearchIcon.png') no-repeat center center;
 }
 
 ._Skins_HomeSearchBar.mc-component .search-filter-content
