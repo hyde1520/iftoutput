@@ -5,11 +5,6 @@ xmlAliasData += '    <Map Name=\"Home\" Link=\"home.htm\" ResolvedId=\"1000\" />
 xmlAliasData += '    <Map Name=\"s_flammap_fm\" Link=\"test_shorts/flammap_basic/s_flammap_fm.htm\" Skin=\"webhelp\" ResolvedId=\"1079\" />';
 xmlAliasData += '    <Map Name=\"AboutIFTDSS\" Link=\"aboutiftdss/aboutiftdss.htm\" ResolvedId=\"1001\" />';
 xmlAliasData += '    <Map Name=\"Disclaimer\" Link=\"aboutiftdss/disclaimer.htm\" ResolvedId=\"1002\" />';
-xmlAliasData += '    <Map Name=\"Background\" Link=\"background/background.htm\" ResolvedId=\"1005\" />';
-xmlAliasData += '    <Map Name=\"phase_1\" Link=\"background/phase_1.htm\" ResolvedId=\"1006\" />';
-xmlAliasData += '    <Map Name=\"phase_2\" Link=\"background/phase_2.htm\" ResolvedId=\"1007\" />';
-xmlAliasData += '    <Map Name=\"phase_3\" Link=\"background/phase_3.htm\" ResolvedId=\"1008\" />';
-xmlAliasData += '    <Map Name=\"phase_5\" Link=\"background/phase_5.htm\" ResolvedId=\"1010\" />';
 xmlAliasData += '    <Map Name=\"FBFMFuelMoistures\" Link=\"concepts/fbfmfuelmoistures.htm\" ResolvedId=\"1014\" />';
 xmlAliasData += '    <Map Name=\"UsingMyData\" Link=\"concepts/usingmydata.htm\" ResolvedId=\"1019\" />';
 xmlAliasData += '    <Map Name=\"UnitsofMeasure\" Link=\"concepts/unitsofmeasure.htm\" ResolvedId=\"1018\" />';
@@ -65,7 +60,6 @@ xmlAliasData += '    <Map Name=\"FFIEvaluateUsingQuriesAbout\" Link=\"pcmonitori
 xmlAliasData += '    <Map Name=\"FTEMEnterDataAbout\" Link=\"pcmonitoring/ftementerdataabout.htm\" ResolvedId=\"1090\" />';
 xmlAliasData += '    <Map Name=\"FTEMEvaluateFormAbout\" Link=\"pcmonitoring/ftemevaluateformabout.htm\" ResolvedId=\"1091\" />';
 xmlAliasData += '    <Map Name=\"PlanningCycleAbout\" Link=\"concepts/planningcycleabout.htm\" ResolvedId=\"1017\" />';
-xmlAliasData += '    <Map Name=\"rda_1\" Link=\"background/rda_1.htm\" ResolvedId=\"1012\" />';
 xmlAliasData += '    <Map Name=\"GoalsObjectivesAbout\" Link=\"pcmonitoring/goalsobjectivesabout.htm\" ResolvedId=\"1092\" />';
 xmlAliasData += '    <Map Name=\"MonitoringAbout\" Link=\"pcmonitoring/monitoringabout.htm\" ResolvedId=\"1093\" />';
 xmlAliasData += '    <Map Name=\"NFMDDatabaseAccessAbout\" Link=\"pcmonitoring/nfmddatabaseaccessabout.htm\" ResolvedId=\"1094\" />';
@@ -88,8 +82,6 @@ xmlAliasData += '    <Map Name=\"FlamMapAbout\" Link=\"modelingpg/flammap/flamma
 xmlAliasData += '    <Map Name=\"FACTSBusinessAbout\" Link=\"pcreporting/factsbusinessabout.htm\" ResolvedId=\"1096\" />';
 xmlAliasData += '    <Map Name=\"FBFMHeatValues\" Link=\"concepts/fbfmheatvalues.htm\" ResolvedId=\"1015\" />';
 xmlAliasData += '    <Map Name=\"KnownIssues\" Link=\"aboutiftdss/knownissues.htm\" ResolvedId=\"1003\" />';
-xmlAliasData += '    <Map Name=\"phase_4\" Link=\"background/phase_4.htm\" ResolvedId=\"1009\" />';
-xmlAliasData += '    <Map Name=\"project_team\" Link=\"background/project_team.htm\" ResolvedId=\"1011\" />';
 xmlAliasData += '    <Map Name=\"WhereToBegin\" Link=\"getstarted/wheretobegin.htm\" ResolvedId=\"1028\" />';
 xmlAliasData += '    <Map Name=\"EditTools\" Link=\"mapstudio/functions/edittools.htm\" ResolvedId=\"1040\" />';
 xmlAliasData += '    <Map Name=\"FTEMReporting\" Link=\"pcreporting/ftemreporting.htm\" ResolvedId=\"1097\" />';
@@ -129,7 +121,7 @@ xmlAliasData += '    <Map Name=\"Modelsmoretocome\" Link=\"aboutiftdss/modelsmor
 xmlAliasData += '    <Map Name=\"PlaceHolder\" Link=\"aboutiftdss/placeholder.htm\" ResolvedId=\"1139\" />';
 xmlAliasData += '    <Map Name=\"ShapefileRepair\" Link=\"mapstudio/files/shapefilerepair.htm\" ResolvedId=\"1141\" />';
 xmlAliasData += '    <Map Name=\"AttributeTable\" Link=\"mapstudio/functions/attributetable.htm\" ResolvedId=\"1142\" />';
-xmlAliasData += '    <Map Name=\"Draw\" Link=\"mapstudio/functions/draw.htm\" ResolvedId=\"1143\" />';
+xmlAliasData += '    <Map Name=\"Draw\" Link=\"mapstudio/functions/addgraphic.htm\" ResolvedId=\"1143\" />';
 xmlAliasData += '    <Map Name=\"FilterAttributeTable\" Link=\"mapstudio/functions/filterattributetable.htm\" ResolvedId=\"1144\" />';
 xmlAliasData += '    <Map Name=\"GetCoordinates\" Link=\"mapstudio/functions/getcoordinates.htm\" ResolvedId=\"1145\" />';
 xmlAliasData += '    <Map Name=\"Identify\" Link=\"mapstudio/functions/identify.htm\" ResolvedId=\"1146\" />';
@@ -140,5 +132,6 @@ xmlAliasData += '    <Map Name=\"ViewShapefileOnMap\" Link=\"mapstudio/functions
 xmlAliasData += '    <Map Name=\"TreatmentRuleBackground\" Link=\"pclandscapeeval/treatmentrulebackground.htm\" ResolvedId=\"1151\" />';
 xmlAliasData += '    <Map Name=\"IFTDSSOverview\" Link=\"getstarted/iftdssoverview.htm\" ResolvedId=\"1152\" />';
 xmlAliasData += '    <Map Name=\"SpatialExtent\" Link=\"mapstudio/files/spatialextent.htm\" ResolvedId=\"1153\" />';
+xmlAliasData += '    <Map Name=\"Filter\" Link=\"mapstudio/functions/filter.htm\" ResolvedId=\"1154\" />';
 xmlAliasData += '</CatapultAliasFile>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);

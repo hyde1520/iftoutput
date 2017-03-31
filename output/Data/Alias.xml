@@ -4,11 +4,6 @@
     <Map Name="s_flammap_fm" Link="test_shorts/flammap_basic/s_flammap_fm.htm" Skin="webhelp" ResolvedId="1079" />
     <Map Name="AboutIFTDSS" Link="aboutiftdss/aboutiftdss.htm" ResolvedId="1001" />
     <Map Name="Disclaimer" Link="aboutiftdss/disclaimer.htm" ResolvedId="1002" />
-    <Map Name="Background" Link="background/background.htm" ResolvedId="1005" />
-    <Map Name="phase_1" Link="background/phase_1.htm" ResolvedId="1006" />
-    <Map Name="phase_2" Link="background/phase_2.htm" ResolvedId="1007" />
-    <Map Name="phase_3" Link="background/phase_3.htm" ResolvedId="1008" />
-    <Map Name="phase_5" Link="background/phase_5.htm" ResolvedId="1010" />
     <Map Name="FBFMFuelMoistures" Link="concepts/fbfmfuelmoistures.htm" ResolvedId="1014" />
     <Map Name="UsingMyData" Link="concepts/usingmydata.htm" ResolvedId="1019" />
     <Map Name="UnitsofMeasure" Link="concepts/unitsofmeasure.htm" ResolvedId="1018" />
@@ -64,7 +59,6 @@
     <Map Name="FTEMEnterDataAbout" Link="pcmonitoring/ftementerdataabout.htm" ResolvedId="1090" />
     <Map Name="FTEMEvaluateFormAbout" Link="pcmonitoring/ftemevaluateformabout.htm" ResolvedId="1091" />
     <Map Name="PlanningCycleAbout" Link="concepts/planningcycleabout.htm" ResolvedId="1017" />
-    <Map Name="rda_1" Link="background/rda_1.htm" ResolvedId="1012" />
     <Map Name="GoalsObjectivesAbout" Link="pcmonitoring/goalsobjectivesabout.htm" ResolvedId="1092" />
     <Map Name="MonitoringAbout" Link="pcmonitoring/monitoringabout.htm" ResolvedId="1093" />
     <Map Name="NFMDDatabaseAccessAbout" Link="pcmonitoring/nfmddatabaseaccessabout.htm" ResolvedId="1094" />
@@ -87,8 +81,6 @@
     <Map Name="FACTSBusinessAbout" Link="pcreporting/factsbusinessabout.htm" ResolvedId="1096" />
     <Map Name="FBFMHeatValues" Link="concepts/fbfmheatvalues.htm" ResolvedId="1015" />
     <Map Name="KnownIssues" Link="aboutiftdss/knownissues.htm" ResolvedId="1003" />
-    <Map Name="phase_4" Link="background/phase_4.htm" ResolvedId="1009" />
-    <Map Name="project_team" Link="background/project_team.htm" ResolvedId="1011" />
     <Map Name="WhereToBegin" Link="getstarted/wheretobegin.htm" ResolvedId="1028" />
     <Map Name="EditTools" Link="mapstudio/functions/edittools.htm" ResolvedId="1040" />
     <Map Name="FTEMReporting" Link="pcreporting/ftemreporting.htm" ResolvedId="1097" />
@@ -128,7 +120,7 @@
     <Map Name="PlaceHolder" Link="aboutiftdss/placeholder.htm" ResolvedId="1139" />
     <Map Name="ShapefileRepair" Link="mapstudio/files/shapefilerepair.htm" ResolvedId="1141" />
     <Map Name="AttributeTable" Link="mapstudio/functions/attributetable.htm" ResolvedId="1142" />
-    <Map Name="Draw" Link="mapstudio/functions/draw.htm" ResolvedId="1143" />
+    <Map Name="Draw" Link="mapstudio/functions/addgraphic.htm" ResolvedId="1143" />
     <Map Name="FilterAttributeTable" Link="mapstudio/functions/filterattributetable.htm" ResolvedId="1144" />
     <Map Name="GetCoordinates" Link="mapstudio/functions/getcoordinates.htm" ResolvedId="1145" />
     <Map Name="Identify" Link="mapstudio/functions/identify.htm" ResolvedId="1146" />
@@ -139,4 +131,5 @@
     <Map Name="TreatmentRuleBackground" Link="pclandscapeeval/treatmentrulebackground.htm" ResolvedId="1151" />
     <Map Name="IFTDSSOverview" Link="getstarted/iftdssoverview.htm" ResolvedId="1152" />
     <Map Name="SpatialExtent" Link="mapstudio/files/spatialextent.htm" ResolvedId="1153" />
+    <Map Name="Filter" Link="mapstudio/functions/filter.htm" ResolvedId="1154" />
 </CatapultAliasFile>

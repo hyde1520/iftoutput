@@ -158,6 +158,8 @@
                                                         </li>
                                                     </ul>
                                                 </li>
+                                                <li><a href="lcpinfo.htm">Landscape (.lcp) Files</a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li class="has-children"><a href="#">Modeling</a>
@@ -199,6 +201,8 @@
                                                         <li><a href="../functions/basemapgallery.htm">Basemap Gallery</a>
                                                         </li>
                                                         <li><a href="../functions/measurements.htm">Measurements</a>
+                                                        </li>
+                                                        <li><a href="../functions/filter.htm">Filter Button</a>
                                                         </li>
                                                         <li><a href="../functions/attributetable.htm">Attribute Table</a>
                                                         </li>
@@ -343,10 +347,98 @@
                                         <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">You are here: </span><span class="MCBreadcrumbsSelf">Mapping</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbsSelf">Using Data</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Creating a Landscape</span>
                                         </div>
                                         <h1>Creating a Landscape</h1>
-                                        <p>In <span class="GeneralProductName">IFTDSS</span>, a landscape refers to a spatial file that contains elevation data and vegetation/fuels data in .lcp file format.</p>
-                                        <p>You may generate a landscape by downloading LANDFIRE data.</p>
-                                        <p><span class="alertcomingsoon" data-mc-autonum="&lt;b&gt;More Functionality to Come! &lt;/b&gt;">In future releases of <span class="GeneralProductName">IFTDSS</span> you will be able to upload your own .lcp files</span>
+                                        <p>The first step in working with landscapes in <span class="GeneralProductName">IFTDSS</span> is to download a landscape and evaluate the information. In <span class="GeneralProductName">IFTDSS</span>, a <a href="lcpinfo.htm">landscape file</a> refers to the spatial file that contains vegetation and fuel data in .lcp file format.</p>
+                                        <p>You may generate a landscape by downloading LANDFIRE data, this can be done from the <span class="GeneralMapStudio">Map Studio</span>, or through the Landscape Summary part of the Landscape Evaluation Stage of the Planning Cycle. Instructions for each are outlined below:</p>
+                                        <p><span class="alertcomingsoon" data-mc-autonum="&lt;b&gt;More Functionality to Come! &lt;/b&gt;"><span class="autonumber"><span><b>More Functionality to Come! </b></span></span>In future releases of <span class="GeneralProductName">IFTDSS</span> you will be able to upload your own .lcp files</span>
                                         </p>
+                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />To create a new landscape in <span class="GeneralMapStudio">Map Studio</span></a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>To generate a landscape from within <span class="GeneralMapStudio">Map Studio</span> you will use the options in the <span class="UIcomponent">Landscape Tools</span> button, under the <span class="UIcomponent">Create new</span> tab.</p>
+                                                <p>
+                                                    <img src="../../resources/images/lcp_gen_smmry/mapstudio_createnew_636x449.png" style="width: 636;height: 449;" />
+                                                </p>
+                                                <p>
+                                                    <img src="../../resources/images/lcp_gen_smmry/lcp_mapstudio_steps.png" alt="Draw and dropdown options under the 'create new' tab let you generate a landscape from within map studio." />
+                                                </p>
+                                                <ol style="list-style-type: upper-alpha;">
+                                                    <li value="1">Use the <span class="GeneralMapStudio">Map Studio</span> tools such as zoom, basemap layers, etc. to locate your desired area.</li>
+                                                    <li value="2">Click the <span class="UIcomponent">Select draw mode</span>, mouse to your location on the map, hold down the left mouse key, and draw a rectangle around your desired area, releasing the button when you are finished.</li>
+                                                    <li value="3">Alternatively, if you wish to enter exact coordinates rather than draw a box around your area, you may do so by entering the coordinates, in degrees, for the west, east, south, and north bounds of your desired area. </li>
+                                                    <li value="4">Select the version of LANDFIRE data you would like to download.</li>
+                                                    <li value="5">Select the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) you would like included in your landscape file.</li>
+                                                    <li value="6">Specify the resolution for your landscape file. <br /><div class="noteIFTDSS" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>The default, and standard resolution for most operations in <span class="GeneralProductName">IFTDSS</span> is 30 meters. We recommend leaving this setting at the default unless you have a specific reason for altering it.</div><br /></li>
+                                                    <li value="7">Give your landscape a descriptive name, this will be helpful as you accumulate more landscape files in <span class="GeneralProductName">IFTDSS</span>.</li>
+                                                    <li value="8">Select the folder in which you would like to store your landscape file.</li>
+                                                    <li value="9">Select <span class="UIcomponent">Create</span> to generate your landscape file.</li>
+                                                </ol>
+                                                <p>After selecting <span class="UIcomponent">Create</span>, it may take a few minutes to generate your landscape. You may check its status by refreshing the Layer List in <span class="GeneralMapStudio">Map Studio</span>.</p>
+                                                <div class="noteIFTDSS" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>
+            If you have created a landscape in&#160;<span class="GeneralMapStudio">Map Studio</span> using the <span class="UIcomponent">Create in <span class="GeneralMapStudio">Map Studio</span></span> button (for example, this is an option in Landscape Summary, and other tasks) you will need to navigate back to your task to continue that process using your newly created landscape.</div>
+                                                <p>&#160;</p>
+                                                <p>Once you select <span class="UIcomponent">Create</span> a message will appear at the top of the <span class="UIcomponent">Landscape Tools</span> box to confirm your landscape is being created</p>
+                                                <p>
+                                                    <img src="../../resources/images/lcp_gen_smmry/landscape_submitted_confirmation.png" alt="confirmation message that a landsape file is in the process of being downloaded" />
+                                                </p>
+                                                <p>It may take a couple minutes before your landscape is available for viewing. When the landscape file is fully downloaded, you will be notified via the Message Center in the top right of your screen.</p>
+                                                <p>
+                                                    <img src="../../resources/images/lcp_gen_smmry/landscape_created_confirmation.png" alt="Message center confirmation that a landscape file was successfully created" />
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />To create a new landscape in the Landscape Summary task of the Planning Cycle using the 'Create Here' button</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>To create a landscape within the Generate Landscape Summary task, select the <span class="UIcomponent">Create Here</span> option.</p>
+                                                <p>
+                                                    <img src="../../resources/images/lcp_gen_smmry/createininterface.png" alt="The 'create here' button lets you generate a landscape in the planning interface" />
+                                                </p>
+                                                <p>
+                                                    <img src="../../resources/images/lcp_gen_smmry/lcp_interface_steps_759x457.png" style="width: 759;height: 457;" alt="'create landscape' interface with interactive map to the left, and drop down inputs on the right." />
+                                                </p>
+                                                <ol style="list-style-type: upper-alpha;">
+                                                    <li value="1">Use the zoom tools in the top left of the map to zoom to your desired location</li>
+                                                    <li value="2">Click the <span class="UIcomponent">Select Draw Tool</span>, mouse to your location on the map, hold down the left mouse key, and draw a rectangle around your desired area, releasing the button when you are finished.</li>
+                                                    <li value="3">Alternatively, if you wish to enter exact coordinates rather than draw a box around your area, you may do so by entering the coordinates, in degrees, for the west, east, south, and north bounds of your desired area. </li>
+                                                    <li value="4">Select the version of LANDFIRE data you would like to use.</li>
+                                                    <li value="5">Select the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) you would like included in your landscape file.</li>
+                                                    <li value="6">Specify the resolution for your landscape file. <br /><div class="noteIFTDSS" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>The default, and standard resolution for most operations in <span class="GeneralProductName">IFTDSS</span> is 30 meters. We recommend leaving this setting at the default unless you have a specific reason for altering it.</div><br /></li>
+                                                    <li value="7">Give your landscape a descriptive name, this will be helpful as you accumulate more landscape files in <span class="GeneralProductName">IFTDSS</span>.</li>
+                                                    <li value="8">Select the folder in which you would like to store your landscape file, or select the <span class="UIcomponent">create new folder button</span> <img src="../../resources/images/lcp_gen_smmry/landscape gen 4.png" alt="create new folder button" />to create and name a new folder in which to place your landscape file. </li>
+                                                    <li value="9">Select <span class="UIcomponent">Create</span> to generate your landscape file</li>
+                                                </ol>
+                                                <p>Once you select create, you will be returned to the Landscape&#160;Summary task, and the field next to My Landscapes, will contain the name of your newly created landscape, with an hourglass <img src="../../resources/images/landscapesumm/hourglass.png" alt="hourglass icon" />next to it, indicating it is being created. Once created, the hourglass will be replaced by a green checkmark.</p>
+                                                <p>&#160;</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />To create a new landscape in the Landscape Summary task of the Planning Cycle using the 'Create in Map Studio' button</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>To leave this interface and generate a landscape in <span class="GeneralMapStudio">Map Studio</span>, select the <span class="UIcomponent">Create in Map Studio</span> button.</p>
+                                                <p>
+                                                    <img src="../../resources/images/lcp_gen_smmry/createininterface_mapstudio.png" alt="the 'create in map studio' button is located to the right under the 'create a landscape' prompt." />
+                                                </p>
+                                                <p>To generate a landscape from within <span class="GeneralMapStudio">Map Studio</span> you will use the options in the <span class="UIcomponent">Landscape Tools</span> button, under the <span class="UIcomponent">Create new</span> tab.</p>
+                                                <p>
+                                                    <img src="../../resources/images/lcp_gen_smmry/mapstudio_createnew_636x449.png" style="width: 636;height: 449;" />
+                                                </p>
+                                                <p>
+                                                    <img src="../../resources/images/lcp_gen_smmry/lcp_mapstudio_steps.png" alt="Draw and dropdown options under the 'create new' tab let you generate a landscape from within map studio." />
+                                                </p>
+                                                <ol style="list-style-type: upper-alpha;">
+                                                    <li value="1">Use the <span class="GeneralMapStudio">Map Studio</span> tools such as zoom, basemap layers, etc. to locate your desired area.</li>
+                                                    <li value="2">Click the <span class="UIcomponent">Select draw mode</span>, mouse to your location on the map, hold down the left mouse key, and draw a rectangle around your desired area, releasing the button when you are finished.</li>
+                                                    <li value="3">Alternatively, if you wish to enter exact coordinates rather than draw a box around your area, you may do so by entering the coordinates, in degrees, for the west, east, south, and north bounds of your desired area. </li>
+                                                    <li value="4">Select the version of LANDFIRE data you would like to download.</li>
+                                                    <li value="5">Select the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) you would like included in your landscape file.</li>
+                                                    <li value="6">Specify the resolution for your landscape file. <br /><div class="noteIFTDSS" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>The default, and standard resolution for most operations in <span class="GeneralProductName">IFTDSS</span> is 30 meters. We recommend leaving this setting at the default unless you have a specific reason for altering it.</div><br /></li>
+                                                    <li value="7">Give your landscape a descriptive name, this will be helpful as you accumulate more landscape files in <span class="GeneralProductName">IFTDSS</span>.</li>
+                                                    <li value="8">Select the folder in which you would like to store your landscape file.</li>
+                                                    <li value="9">Select <span class="UIcomponent">Create</span> to generate your landscape file.</li>
+                                                </ol>
+                                                <p>After selecting <span class="UIcomponent">Create</span>, it may take a few minutes to generate your landscape. You may check its status by refreshing the Layer List in <span class="GeneralMapStudio">Map Studio</span>.</p>
+                                                <div class="noteIFTDSS" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt;"><span class="autonumber"><span><b>Note: </b></span></span>
+            If you have created a landscape in&#160;<span class="GeneralMapStudio">Map Studio</span> using the <span class="UIcomponent">Create in <span class="GeneralMapStudio">Map Studio</span></span> button (for example, this is an option in Landscape Summary, and other tasks) you will need to navigate back to your task to continue that process using your newly created landscape.</div>
+                                                <p>&#160;</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

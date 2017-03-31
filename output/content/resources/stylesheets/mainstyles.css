@@ -91,7 +91,7 @@ div.ImagesFloatRight
 
 div.noteImportant
 {
-	background-image: url('../images/noteicon_orange.png');
+	background-image: url('../images/caution.png');
 	background-repeat: no-repeat;
 	border: solid 3px #e67d27;
 	border-radius: 6px;
@@ -109,11 +109,11 @@ div.noteImportant
 
 div.noteIFTDSS
 {
-	background-color: #2d3d4f;
-	background-image: url('../images/noteicon_orange.png');
+	background-color: #d9e9f6;
+	background-image: url('../images/noteicon_black.png');
 	background-repeat: no-repeat;
 	border-radius: 6px;
-	color: #ffffff;
+	color: #000000;
 	padding-bottom: 10px;
 	padding-left: 40px;
 	padding-right: 10px;
