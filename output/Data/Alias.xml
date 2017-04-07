@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CatapultAliasFile>
     <Map Name="Home" Link="home.htm" ResolvedId="1000" />
-    <Map Name="s_flammap_fm" Link="test_shorts/flammap_basic/s_flammap_fm.htm" Skin="webhelp" ResolvedId="1079" />
     <Map Name="AboutIFTDSS" Link="aboutiftdss/aboutiftdss.htm" ResolvedId="1001" />
     <Map Name="Disclaimer" Link="aboutiftdss/disclaimer.htm" ResolvedId="1002" />
     <Map Name="FBFMFuelMoistures" Link="concepts/fbfmfuelmoistures.htm" ResolvedId="1014" />
@@ -35,11 +34,9 @@
     <Map Name="MyWorkspaceAbout" Link="myworkspace/myworkspaceabout.htm" ResolvedId="1066" />
     <Map Name="DevelopTreatmentRxsAbout" Link="pcimplementationplan/developtreatmentrxsabout.htm" ResolvedId="1067" />
     <Map Name="DMCWriteChemTrtmentsAbout" Link="pcimplementationplan/dmcwritechemtrtmentsabout.htm" ResolvedId="1068" />
-    <Map Name="s_flammap_crown" Link="test_shorts/flammap_basic/s_flammap_crown.htm" Skin="webhelp" ResolvedId="1070" />
     <Map Name="DMCWriteMechTrtmentAbout" Link="pcimplementationplan/dmcwritemechtrtmentabout.htm" ResolvedId="1069" />
     <Map Name="FBWForecastBurnWindowAbout" Link="pcimplementationplan/fbwforecastburnwindowabout.htm" ResolvedId="1071" />
     <Map Name="FBWRxWindowsAbout" Link="pcimplementationplan/fbwrxwindowsabout.htm" ResolvedId="1072" />
-    <Map Name="s_flammap_wind" Link="test_shorts/flammap_basic/s_flammap_wind.htm" Skin="webhelp" ResolvedId="1074" />
     <Map Name="ImplementationPlanAbout" Link="pcimplementationplan/implementationplanabout.htm" ResolvedId="1073" />
     <Map Name="SmokeManagementAbout" Link="pcimplementationplan/smokemanagementabout.htm" ResolvedId="1075" />
     <Map Name="WBPBurnPlanMapsAbout" Link="pcimplementationplan/wbpburnplanmapsabout.htm" ResolvedId="1076" />
@@ -52,7 +49,6 @@
     <Map Name="LandscapeFireBhvrAbout" Link="pclandscapeeval/landscapefirebhvrabout.htm" ResolvedId="1084" />
     <Map Name="LandscapeProjObjtvsAbout" Link="pclandscapeeval/landscapeprojobjtvsabout.htm" ResolvedId="1085" />
     <Map Name="LandSummaryAbout" Link="pclandscapeeval/landsummaryabout.htm" ResolvedId="1086" />
-    <Map Name="WhatsNew" Link="aboutiftdss/whatsnew.htm" ResolvedId="1004" />
     <Map Name="AccessDatabasesAbout" Link="pcmonitoring/accessdatabasesabout.htm" ResolvedId="1087" />
     <Map Name="FFIEnterMonitorDataAbout" Link="pcmonitoring/ffientermonitordataabout.htm" ResolvedId="1088" />
     <Map Name="FFIEvaluateUsingQuriesAbout" Link="pcmonitoring/ffievaluateusingquriesabout.htm" ResolvedId="1089" />
@@ -71,9 +67,6 @@
     <Map Name="MapFunctions" Link="mapstudio/functions/mapfunctions.htm" ResolvedId="1044" />
     <Map Name="Measurements" Link="mapstudio/functions/measurements.htm" ResolvedId="1045" />
     <Map Name="SimulationTools" Link="mapstudio/functions/simulationtools.htm" ResolvedId="1046" />
-    <Map Name="BurnUnitLvl" Link="mapstudio/scalewlkthru/burnunitlvl.htm" ResolvedId="1047" />
-    <Map Name="LandscapeLvl" Link="mapstudio/scalewlkthru/landscapelvl.htm" ResolvedId="1048" />
-    <Map Name="ProjectLvl" Link="mapstudio/scalewlkthru/projectlvl.htm" ResolvedId="1049" />
     <Map Name="ModelsOverview" Link="modelingpg/modelsoverview.htm" ResolvedId="1050" />
     <Map Name="BehaveBackground" Link="modelingpg/behave/behavebackground.htm" ResolvedId="1051" />
     <Map Name="FireFamBackground" Link="modelingpg/firefamplus/firefambackground.htm" ResolvedId="1058" />
@@ -106,15 +99,8 @@
     <Map Name="LANDFIRE" Link="references/landfire.htm" ResolvedId="1125" />
     <Map Name="ReferenceList" Link="references/referencelist.htm" ResolvedId="1126" />
     <Map Name="icons" Link="resources/stylesheets/icons/icons.html" ResolvedId="1127" />
-    <Map Name="Tip_cy_landscapeeval" Link="test_shorts/tip_cy_landscapeeval.htm" ResolvedId="1128" />
-    <Map Name="s_flammap_lndscape" Link="test_shorts/flammap_basic/s_flammap_lndscape.htm" ResolvedId="1129" />
-    <Map Name="s_flammap_name" Link="test_shorts/flammap_basic/s_flammap_name.htm" ResolvedId="1130" />
-    <Map Name="s_flammap_wthr" Link="test_shorts/flammap_basic/s_flammap_wthr.htm" ResolvedId="1131" />
     <Map Name="TutorialMain" Link="tutorials/tutorialmain.htm" ResolvedId="1132" />
-    <Map Name="WorkshpMain" Link="workshops/workshpmain.htm" ResolvedId="1133" />
     <Map Name="icons1" Link="resources/stylesheets/icons/icons.html" ResolvedId="1134" />
-    <Map Name="FireBehavior" Link="popovertips/firebehavior.htm" ResolvedId="1135" />
-    <Map Name="ModelingPlayground" Link="popovertips/modelingplayground.htm" ResolvedId="1136" />
     <Map Name="Auto97Summary" Link="pclandscapeeval/auto97summary.htm" ResolvedId="1137" />
     <Map Name="Modelsmoretocome" Link="aboutiftdss/modelsmoretocome.htm" ResolvedId="1138" />
     <Map Name="PlaceHolder" Link="aboutiftdss/placeholder.htm" ResolvedId="1139" />
@@ -129,7 +115,6 @@
     <Map Name="Swipe" Link="mapstudio/functions/swipe.htm" ResolvedId="1149" />
     <Map Name="ViewShapefileOnMap" Link="mapstudio/functions/viewshapefileonmap.htm" ResolvedId="1150" />
     <Map Name="TreatmentRuleBackground" Link="pclandscapeeval/treatmentrulebackground.htm" ResolvedId="1151" />
-    <Map Name="IFTDSSOverview" Link="getstarted/iftdssoverview.htm" ResolvedId="1152" />
     <Map Name="SpatialExtent" Link="mapstudio/files/spatialextent.htm" ResolvedId="1153" />
     <Map Name="Filter" Link="mapstudio/functions/filter.htm" ResolvedId="1154" />
 </CatapultAliasFile>
