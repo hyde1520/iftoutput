@@ -73,6 +73,18 @@
 		background: url('Images/expand.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
 	}
 
+	._Skins_TopicToolBar.mc-component .button.expand-print-button
+	{
+		background: #ececec url('Images/printercustom.png') no-repeat center center;
+		background: url('Images/printercustom.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/printercustom.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+		background: url('Images/printercustom.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/printercustom.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/printercustom.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/printercustom.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/printercustom.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	}
+
 	._Skins_TopicToolBar.mc-component .button.next-topic-button
 	{
 		background: #ececec url('Images/navigate-next.png') no-repeat center center;
