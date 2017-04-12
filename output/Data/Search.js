@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],u:['../content/aboutiftdss/aboutiftdss.htm'],s:['+','exist','place'],p:[['+',7],['all',47],['blowdown',19],['cubic',53],['features',22],['grids',10],['it',69],['meter',17],['option',21],['requires',60],['strata',60],['to',6],['which',69]]});
+define({r:0.5,st:'Stem',n:1,t:[0,77],u:['../content/aboutiftdss/aboutiftdss.htm'],s:['+','environ','outcom','wild'],p:[['+',7],['allow',38],['behavior',62],['coordinates',34],['endorsement',64],['fuel',49],['in',62],['list',48],['nb1',62],['pine',62],['season',6],['task',18],['to',59],['will',10]]});

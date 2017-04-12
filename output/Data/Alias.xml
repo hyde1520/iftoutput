@@ -50,6 +50,7 @@
     <Map Name="ReportingAbout" Link="pcreporting/reportingabout.htm" ResolvedId="1100" />
     <Map Name="StrategicPlanningAbout" Link="pcstrategicplanning/strategicplanningabout.htm" ResolvedId="1108" />
     <Map Name="TrtmtAltsCompareLndscp" Link="pcstrategicplanning/trtmtaltscomparelndscp.htm" ResolvedId="1111" />
+    <Map Name="TrtmtAltsEditLandscp" Link="pcstrategicplanning/trtmtaltseditlandscp.htm" ResolvedId="1112" />
     <Map Name="FBFMCompare" Link="references/fbfmcompare.htm" ResolvedId="1124" />
     <Map Name="LANDFIRE" Link="references/landfire.htm" ResolvedId="1125" />
     <Map Name="ReferenceList" Link="references/referencelist.htm" ResolvedId="1126" />
@@ -71,4 +72,11 @@
     <Map Name="TreatmentRuleBackground" Link="pclandscapeeval/treatmentrulebackground.htm" ResolvedId="1151" />
     <Map Name="SpatialExtent" Link="mapstudio/files/spatialextent.htm" ResolvedId="1153" />
     <Map Name="Filter" Link="mapstudio/functions/filter.htm" ResolvedId="1154" />
+    <Map Name="Getting_Support" Link="aboutiftdss/getting support.htm" ResolvedId="1155" />
+    <Map Name="AboutLandscapesinIFTDSS" Link="concepts/aboutlandscapesiniftdss.htm" ResolvedId="1156" />
+    <Map Name="FileNaming" Link="getstarted/filenaming.htm" ResolvedId="1157" />
+    <Map Name="MapStudioTips" Link="mapstudio/mapstudiotips.htm" ResolvedId="1158" />
+    <Map Name="LocationButton" Link="mapstudio/functions/locationbutton.htm" ResolvedId="1159" />
+    <Map Name="LandscapeEditTechTopic" Link="pclandscapeeval/landscapeedittechtopic.htm" ResolvedId="1160" />
+    <Map Name="Glossary1" Link="references/glossary.htm" ResolvedId="1161" />
 </CatapultAliasFile>

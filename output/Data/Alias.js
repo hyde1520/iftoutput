@@ -51,6 +51,7 @@ xmlAliasData += '    <Map Name=\"EditTools\" Link=\"mapstudio/functions/edittool
 xmlAliasData += '    <Map Name=\"ReportingAbout\" Link=\"pcreporting/reportingabout.htm\" ResolvedId=\"1100\" />';
 xmlAliasData += '    <Map Name=\"StrategicPlanningAbout\" Link=\"pcstrategicplanning/strategicplanningabout.htm\" ResolvedId=\"1108\" />';
 xmlAliasData += '    <Map Name=\"TrtmtAltsCompareLndscp\" Link=\"pcstrategicplanning/trtmtaltscomparelndscp.htm\" ResolvedId=\"1111\" />';
+xmlAliasData += '    <Map Name=\"TrtmtAltsEditLandscp\" Link=\"pcstrategicplanning/trtmtaltseditlandscp.htm\" ResolvedId=\"1112\" />';
 xmlAliasData += '    <Map Name=\"FBFMCompare\" Link=\"references/fbfmcompare.htm\" ResolvedId=\"1124\" />';
 xmlAliasData += '    <Map Name=\"LANDFIRE\" Link=\"references/landfire.htm\" ResolvedId=\"1125\" />';
 xmlAliasData += '    <Map Name=\"ReferenceList\" Link=\"references/referencelist.htm\" ResolvedId=\"1126\" />';
@@ -72,5 +73,12 @@ xmlAliasData += '    <Map Name=\"ViewShapefileOnMap\" Link=\"mapstudio/functions
 xmlAliasData += '    <Map Name=\"TreatmentRuleBackground\" Link=\"pclandscapeeval/treatmentrulebackground.htm\" ResolvedId=\"1151\" />';
 xmlAliasData += '    <Map Name=\"SpatialExtent\" Link=\"mapstudio/files/spatialextent.htm\" ResolvedId=\"1153\" />';
 xmlAliasData += '    <Map Name=\"Filter\" Link=\"mapstudio/functions/filter.htm\" ResolvedId=\"1154\" />';
+xmlAliasData += '    <Map Name=\"Getting_Support\" Link=\"aboutiftdss/getting support.htm\" ResolvedId=\"1155\" />';
+xmlAliasData += '    <Map Name=\"AboutLandscapesinIFTDSS\" Link=\"concepts/aboutlandscapesiniftdss.htm\" ResolvedId=\"1156\" />';
+xmlAliasData += '    <Map Name=\"FileNaming\" Link=\"getstarted/filenaming.htm\" ResolvedId=\"1157\" />';
+xmlAliasData += '    <Map Name=\"MapStudioTips\" Link=\"mapstudio/mapstudiotips.htm\" ResolvedId=\"1158\" />';
+xmlAliasData += '    <Map Name=\"LocationButton\" Link=\"mapstudio/functions/locationbutton.htm\" ResolvedId=\"1159\" />';
+xmlAliasData += '    <Map Name=\"LandscapeEditTechTopic\" Link=\"pclandscapeeval/landscapeedittechtopic.htm\" ResolvedId=\"1160\" />';
+xmlAliasData += '    <Map Name=\"Glossary1\" Link=\"references/glossary.htm\" ResolvedId=\"1161\" />';
 xmlAliasData += '</CatapultAliasFile>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);
