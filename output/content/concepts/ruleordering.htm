@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Get Started">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta charset="utf-8" />
         <meta name="description" content="" />
-        <meta name="author" content="" /><title>  Setting up an Account</title>
+        <meta name="author" content="" /><title>Rule Ordering Considerations when Editing Landscapes</title>
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
@@ -71,19 +71,19 @@
                                     <ul class="navigation clearfix">
                                         <li class="has-children"><a href="#">Get Started</a>
                                             <ul class="sub-menu">
-                                                <li><a href="whyiftdss.htm">Why use IFTDSS for Fuel Planning?</a>
+                                                <li><a href="../getstarted/whyiftdss.htm">Why use IFTDSS for Fuel Planning?</a>
                                                 </li>
-                                                <li><a href="#" class="selected">Setting up an Account</a>
+                                                <li><a href="../getstarted/accountsetup.htm">Setting up an Account</a>
                                                 </li>
-                                                <li><a href="navigatingiftdss.htm">Navigate IFTDSS (An Overview)</a>
+                                                <li><a href="../getstarted/navigatingiftdss.htm">Navigate IFTDSS (An Overview)</a>
                                                 </li>
-                                                <li><a href="gettinghelp.htm">Getting Help</a>
+                                                <li><a href="../getstarted/gettinghelp.htm">Getting Help</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="has-children"><a href="#">Planning Cycle</a>
                                             <ul class="sub-menu">
-                                                <li><a href="../concepts/planningcycleabout.htm">About the Planning Cycle</a>
+                                                <li><a href="planningcycleabout.htm">About the Planning Cycle</a>
                                                 </li>
                                                 <li class="has-children"><a href="../pclandscapeeval/landevalabout.htm">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Landscape Evaluation</a>
                                                     <ul class="sub-menu">
@@ -109,7 +109,7 @@
                                                 </li>
                                                 <li><a href="../pcreporting/reportingabout.htm">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Reporting</a>
                                                 </li>
-                                                <li><a href="../concepts/aboutlandscapesiniftdss.htm">About Landscapes</a>
+                                                <li><a href="aboutlandscapesiniftdss.htm">About Landscapes</a>
                                                 </li>
                                                 <li><a href="../mapstudio/files/lcpinfo.htm">Landscape (.lcp) Files</a>
                                                 </li>
@@ -185,7 +185,7 @@
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="../concepts/usingmydata.htm">Use My Own Data</a>
+                                                <li><a href="usingmydata.htm">Use My Own Data</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -256,39 +256,28 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <ul class="menu _Skins_SideMenu mc-component">
-                                                <li><a href="whyiftdss.htm">Why use IFTDSS for Fuel Planning?</a>
-                                                </li>
-                                                <li><a href="#" class="selected">Setting up an Account</a>
-                                                </li>
-                                                <li><a href="navigatingiftdss.htm">Navigate IFTDSS (An Overview)</a>
-                                                </li>
-                                                <li><a href="gettinghelp.htm">Getting Help</a>
-                                                </li>
-                                            </ul>
                                         </div>
-                                        <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix">You are here: </span><span class="MCBreadcrumbsSelf">Get Started</span><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">Setting up an Account</span>
+                                        <h1><a name="kanchor5"></a><a name="kanchor6"></a>Rule Ordering Considerations when <a name="kanchor7"></a>Editing Landscapes</h1>
+                                        <p>Below we outline the way in which “rules” are applied to the landscape when you make edits, either as part of the Landscape Evaluation stage, or the Strategic Planning stage.</p>
+                                        <ul>
+                                            <li value="1">Rules are applied top to bottom, first by Default Fuels Treatment / Disturbance Edit Rules then by user defined Landscape Edit Rules.</li>
+                                            <li value="2">Default Fuels Treatment / Disturbance Edit Rules utilize LANDFIRE look-up (LFLU) and Fuel Model look-up (FMLU) processes outlined in the <a href="../pclandscapeeval/landscapeedittechtopic.htm" target="_blank">Rule Technical Documentation Topic</a>. When applying Default Fuels Treatment / Disturbance Edit Rules:<ul><li value="1">Rules are only applied to a previously unedited landscape or a landscape in which only Default Fuels Treatment / Disturbance Edit Rules have been applied.</li><li value="2">Within the rules utilizing the LFLU and FMLU tables, it is the last edit to a particular cell fuel attribute that applies that is utilized as input for user defined “Landscape Edit Rules”.</li></ul></li>
+                                            <li value="3">When applying edits utilizing user defined Landscape Edit Rules:<ul><li value="1">A fuel attribute of a given cell can only be changed once.</li><li value="2">It is the <span class="Emphasis">FIRST</span> edit of a fuel attribute for a cell that affects the change, not the last.</li><li value="3">Fuel attributes are considered separately when applying Landscape Edit Rules. So a rule that modifies fuel model for a particular cell does not preclude canopy cover or another fuel attribute from being modified by a subsequent rule.</li></ul></li>
+                                        </ul>
+                                        <div class="notificationImportant">
+                                            <p>Important! Currently there is no way to order your rules other than by the order in which you enter them, so be deliberate about how you apply rules and in what order you enter them.</p>
                                         </div>
-                                        <h1><a name="kanchor104"></a> <a name="kanchor105"></a> <a name="kanchor106"></a>Setting up an <a name="kanchor107"></a>Account</h1>
-                                        <p>To create a new account, select the <span class="UIcomponent">Login</span> option in the top right of the <span class="GeneralProductName">IFTDSS</span> page, and select <span class="UIcomponent">Register</span> at the bottom of the Login box.</p>
-                                        <p>
-                                            <img src="../resources/images/getting_started/registration_start_552x294.png" style="width: 552;height: 294;" alt="IFTDSS login page with a blue registration button visible in the top right login box." />
-                                        </p>
-                                        <p>You will go to the <span class="UIcomponent">New User Registration</span> page, where you will input the required information and click the <span class="UIcomponent">Register</span> button.</p>
-                                        <div class="notificationNote">
-                                            <p>Your <b>User Name</b> will be displayed on many exportable <span class="GeneralProductName">IFTDSS</span> reports, so pick one you don't mind sharing!</p>
+                                        <div class="notificationImportant">
+                                            <p>Important! After applying rules to a given landscape you should always validate that your changes have been made as you intended. See the <a href="../pclandscapeeval/landsummaryabout.htm" target="_blank">Create Summaries Topic</a> and <a href="../mapstudio/functions/swipe.htm" target="_blank">Comparing Landscapes Using Swipe Tool Topic</a> for more information on summarizing and comparing landscapes.</p>
                                         </div>
-                                        <p>
-                                            <img src="../resources/images/getting_started/registration_info_554x313.png" style="width: 554;height: 313;" alt="New user registration form with fields for name, email, and other information " />
-                                        </p>
-                                        <p>Once your information has been submitted, you will receive an email from an <span class="GeneralProductName">IFTDSS</span> administrator confirming your account has been created. You may log into <span class="GeneralProductName">IFTDSS</span> at anytime after receiving this confirmation email.</p>
-                                        <p>
-                                            <img src="../resources/images/getting_started/registration_logni_560x297.png" style="width: 560;height: 297;" alt="Login page with fields for your user name and password circled in red" />
-                                        </p>
-                                        <p>When logging in for the first time, you may be prompted to accept the <span class="GeneralProductName">IFTDSS</span> IT&#160;Security Rules of Behavior.</p>
-                                        <p>
-                                            <img src="../resources/images/getting_started/useragreement_1102x407.png" alt="You may have to click the button at the bottom of the 'Rules of Behavior' to proceed to the IFTDSS main page after logging in for the very first time." style="width: 1102;height: 407;" />
-                                        </p>
+                                        <div class="notificationTip">
+                                            <p>If you are unsure how Default Fuels Treatment / Disturbance Edit Rules and user defined Landscape Edit Rules will interact on your landscape it is recommended you utilize Default Fuels Treatment / Disturbance Edit Rules first and once you are satisfied with the effect of your Default Fuels Treatment / Disturbance Edit Rules, start adding additional rules one at a time and compare them with your previous landscape as you incrementally add rules.</p>
+                                        </div>
+                                        <h2>Rule ordering Background</h2>
+                                        <p>It is important to understand the intricacies of how landscape edit rules are applied to a landscape. There are 2 ways in which landscape edits are implemented on the landscape. The first is the Default Fuels Treatment / Disturbance Edit Rules that use the LANDFIRE Lookup (LFLU) and Fuel Model Lookup (FMLU) tables. The second is user defined Landscape Edit Rules.  Rules are applied top to bottom in the list, first by Default Fuels Treatment / Disturbance Edit Rules, then by Landscape Edit Rules. The Default Fuels Treatment / Disturbance Edit Rules are ALWAYS applied BEFORE the user define Landscape Edit Rules.</p>
+                                        <p>The LFLU tables can only be used when Existing Vegetation Type (EVT), Existing Vegetation Height (EVH), and Existing Vegetation Cover (EVC) are present in your landscape data, as this is what is used for conversion in the LFLU tables based on the type, intensity and timing of treatment and disturbance. When a user applies their own Landscape Edit Rule that modifies the fuel model, stand height or canopy cover for a given landscape cell, the EVT, EVH, and EVC are set to 0 for that cell, which precludes the use of LFLU for future edits. Since LFLU can no longer be used the IFTDSS team has developed a second set of lookup tables called the Fuel Model Lookup (FMLU) tables . The FMLU tables are less accurate because they are a generalization of the LFLU tables. This generalization was necessary because there are many more values for EVT than there are Fuel Models.  (For more details, see the <a href="../pclandscapeeval/landscapeedittechtopic.htm">Editing Rule Technical Documentation Topic</a>)</p>
+                                        <p>The actual effect of the rules do differ between Default Fuels Treatment / Disturbance Edit Rules and user defined Landscape Edit Rules. In the case of Default Fuels Treatment / Disturbance Edit Rules, it is the LAST of the rules with a particular effect on a cell being the final LFLU/FMLU edit to a particular cell. For Default Fuels Treatment / Disturbance Edit Rules, note that the output (if any) from the previous rule is always the input to the next rule in the list. When starting to apply user defined Landscape Edit Rules the FIRST fuel model attribute change applied to a cell is the edit that will be reflected in the resultant landscape. It’s important to note that each fuel attribute (fuel model, canopy cover, canopy height, canopy bulk density, and canopy base height) for a cell is treated separately, so although a cell may be locked due to an edit for fuel model, any of the other attributes may be modified by a subsequent rule.</p>
+                                        <p>Once your rules are defined and ordered correctly, you need to make sure that your resulting landscape reflects your intended changes.</p>
                                     </div>
                                 </div>
                             </div>
