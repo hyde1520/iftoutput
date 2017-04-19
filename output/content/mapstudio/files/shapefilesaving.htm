@@ -240,6 +240,19 @@
                     </aside>
                     <section class="main-section">
                         <div class="row outer-row" data-mc-content-body="True">
+                            <script src="https://www.google.com/jsapi" type="text/javascript">
+                            </script>
+                            <script>
+			/* <![CDATA[ */
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-97631423-1', 'auto');
+			ga('send', 'pageview');
+			/* ]]> */
+		</script>
                             <div class="content">
                                 <div id="contentBody">
                                     <div class="row collapse">
@@ -292,15 +305,19 @@
                                                 <img src="../../resources/images/mapstudio/shapefile_save1_2_315x432.png" alt="use the 'zoom to' option to find your shapefile on the map" style="width: 315;height: 432;" />
                                             </li>
                                         </ol>
-                                        <p>Open <span class="UIcomponent">Edit Tools</span><img src="../../resources/images/mapstudio/button_edittools.png" alt="edit tools button" /> and Select the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" /></p>
+                                        <p>Open <span class="UIcomponent">Edit Tools</span><img src="../../resources/images/mapstudio/button_edittools.png" alt="edit tools button" /> and select the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" /></p>
                                         <p>
                                             <img src="../../resources/images/mapstudio/shapefile_save2.png" />
                                         </p>
                                         <p>Select the polygon you wish to save (selected polygons will turn yellow). This can be done by either selecting individual polygons or selecting and dragging a box over the polygons you wish to retain.</p>
+                                        <p>if you plan on selecting multiple polygons, select the <span class="UIcomponent">Select mulitpart</span> option under the <span class="UIcomponent">copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" />.</p>
                                         <p>
                                             <img src="../../resources/images/mapstudio/shapefile_save3_405x304.png" style="width: 405;height: 304;" alt="click each polygon to select it" />
                                         </p>
                                         <p> Left click any remaining polygons you wish to save as part of your retained shapefile. </p>
+                                        <div class="notificationImportant">
+                                            <p>Currently you must select <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" /> before highlighting each additional polygon.</p>
+                                        </div>
                                         <p>
                                             <img src="../../resources/images/mapstudio/shapefile_save4_373x286.png" alt="selected polygons will turn yellow" style="width: 373;height: 286;" />
                                         </p>

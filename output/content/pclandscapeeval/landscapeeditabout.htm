@@ -240,6 +240,19 @@
                     </aside>
                     <section class="main-section">
                         <div class="row outer-row" data-mc-content-body="True">
+                            <script src="https://www.google.com/jsapi" type="text/javascript">
+                            </script>
+                            <script>
+			/* <![CDATA[ */
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-97631423-1', 'auto');
+			ga('send', 'pageview');
+			/* ]]> */
+		</script>
                             <div class="content">
                                 <div id="contentBody">
                                     <div class="row collapse">
@@ -326,29 +339,29 @@
                                         </div>
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Add Landscape Edit Rule</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>You may also create your own landscape edit rules by selecting specific conditions, and how you would like to modify the landscape in instances where those conditions occur.</p>
+                                                <p>You may create your own landscape edit rules by selecting specific conditions, and specifying what modifications to make where ever those conditions occur.</p>
+                                                <p>To split the view and display your mapped area on the left, and this interface on the right, select the <img src="../resources/images/treatment_compare/button_showsplitmap.png" alt="show split map button" /><span class="UIcomponent">show split map</span> button at the top left of the page. </p>
                                                 <p>
-                                                    <img src="../resources/images/landscape_edits/create_rules_746x343.png" alt="Adding a landscape edit rule using the dropdown and text fields to specify attributes, operators, modifiers, and values" style="width: 746;height: 343;" />
+                                                    <img src="../resources/images/landscape_edits/create_rules_651x471.png" alt="Adding a landscape edit rule using the dropdown and text fields to specify attributes, operators, modifiers, and values" style="width: 651;height: 471;" />
                                                 </p>
-                                                <p>In the image above we have created a rule that finds any canopy base height values less than 0.5 meters that occur within Fuel Model TU3, and change those values to 1.0 meters. Because we did not input a Landscape mask, this rule will apply to our entire landscape. In the Landscape Edit Rule interface you will see the following sections:</p>
-                                                <h3>Where these conditions exist:</h3>
-                                                <p>Use this section to define the attributes of the landscape you would like to edit:</p>
-                                                <ul>
-                                                    <li value="1">Attribute: Define the attribute you wish to edit.</li>
-                                                    <li value="2">Operator:<ul><li value="1">is equal to </li><li value="2">is less than</li><li value="3">is greater than</li><li value="4">is less than or equal to</li><li value="5">is greater than or equal to</li><li value="6">has no assigned value</li></ul></li>
-                                                    <li value="3">Value:&#160;The value you want to operator to apply to</li>
-                                                </ul>
-                                                <h3>Modify the following values:</h3>
-                                                <p>Use this section to specify how you want the defined landscape attributes to be edited:</p>
-                                                <ul>
-                                                    <li value="1">Attribute: The attribute you wish to edit</li>
-                                                    <li value="2">Modifier:<ul><li value="1">Set to</li><li value="2">Clamp to a minimum</li><li value="3">Clamp to a maximum</li><li value="4">Multiply by</li><li value="5">Increase by</li><li value="6">Decrease by</li><li value="7">Clear value (set to no data)</li></ul></li>
-                                                    <li value="3">Value: The value that the modifier applies to.</li>
-                                                </ul>
-                                                <p>Once you have set your rule, select <span class="UIcomponent">Add to Rules</span>. You may add as many rules as necessary.</p>
-                                                <div class="notificationImportant">
-                                                    <p>Rules are applied top to bottom, first by Default Fuels Treatment / Disturbance Edit Rules then by user defined Landscape Edit Rules. Currently there is no way to order your rules other than by the order in which you enter them, so be deliberate about how you apply rules and in what order you enter them.</p>
-                                                </div>
+                                                <ol style="list-style-type: upper-alpha;">
+                                                    <li value="1">Begin by selecting your <span class="UIcomponent">Starting Landscape</span> which you would like to edit</li>
+                                                    <li value="2">View the Add Landscape Rule options by either selecting the <span class="UIcomponent">Add Landscape&#160;Edit Rule +</span> sign just below the starting landscape field, or select the dropdown arrow to the far right of the <span class="UIcomponent">Add Landscape&#160;Edit Rule</span> heading.</li>
+                                                    <li value="3">Specify the conditions you would like to select in the fields below <span class="UIcomponent">Where these conditions exist</span>. In this example we have selected 'Fuel Model' as the Attribute, 'is equal to' as the Operator and fire behavior fuel model '165 (TU5)' as the Value. This selected all TU5 fuel modeled areas across the landscape.</li>
+                                                    <li value="4">Specify what you would like change conditions to by populating the fields below <span class="UIcomponent">Modify the following values</span>. In this example we have selected 'Canopy Cover' as the Attribute, 'decrease by' as the Operator, and '5' (for 5 percent) as the Value. For all TU5 fuel modeled areas, we will decrease the canopy cover by 5 percent. </li>
+                                                    <li value="5"><span class="UIcomponent">The Apply to Landscape Mask</span> (optional) dropdown allows you to select a shapefile to which these edits will be contained. If this is left blank, the edits will be applied to the entire landscape.</li>
+                                                    <li value="6">When you are ready to apply this rule select the <span class="UIcomponent">Add to Rules</span> button. Notice the rule has been added to you list, and the order noted. You can delete rules before saving by using the delete button <img src="../resources/images/landscape_edits/button_delete.png" alt="delete button" /> to the right of each rule. </li>
+                                                    <div>
+                                                        <div class="notificationImportant">
+                                                            <p>Rules are applied top to bottom, first by Default Fuels Treatment / Disturbance Edit Rules then by user defined Landscape Edit Rules. Currently there is no way to order your rules other than by the order in which you enter them, so be deliberate about how you apply rules and in what order you enter them.</p>
+                                                        </div>
+                                                        <p>As rules are added, will see them listed at the to of the page, along with the order they have been added, and a notification to let you know the new rule has been successfully saved.</p>
+                                                        <p>
+                                                            <img src="../resources/images/landscape_edits/rule_created.png" alt="green notification box appearing to let the user know a new rule has been saved" />
+                                                        </p>
+                                                    </div>
+                                                    <li value="7">Once you have all the rules, in the order you would like them applied, give your landscape a descriptive name and select Save New Landscape. Your original landscape will remain, and an edited copy will now be available throughout <span class="GeneralProductName">IFTDSS</span>.</li>
+                                                </ol>
                                             </div>
                                         </div>
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Applying Landscape Edits</a></span>
