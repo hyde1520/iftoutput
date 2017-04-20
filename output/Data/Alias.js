@@ -13,7 +13,6 @@ xmlAliasData += '    <Map Name=\"AccountSetup\" Link=\"getstarted/accountsetup.h
 xmlAliasData += '    <Map Name=\"Alerts\" Link=\"getstarted/alerts.htm\" ResolvedId=\"1023\" />';
 xmlAliasData += '    <Map Name=\"GettingHelp\" Link=\"getstarted/gettinghelp.htm\" ResolvedId=\"1024\" />';
 xmlAliasData += '    <Map Name=\"NavigatingIFTDSS\" Link=\"getstarted/navigatingiftdss.htm\" ResolvedId=\"1025\" />';
-xmlAliasData += '    <Map Name=\"OnlineCourses\" Link=\"getstarted/onlinecourses.htm\" ResolvedId=\"1026\" />';
 xmlAliasData += '    <Map Name=\"WhyIFTDSS\" Link=\"getstarted/whyiftdss.htm\" ResolvedId=\"1029\" />';
 xmlAliasData += '    <Map Name=\"MapStudioAbout\" Link=\"mapstudio/mapstudioabout.htm\" ResolvedId=\"1030\" />';
 xmlAliasData += '    <Map Name=\"FBFMInfo\" Link=\"mapstudio/files/fbfminfo.htm\" ResolvedId=\"1031\" />';
@@ -75,7 +74,6 @@ xmlAliasData += '    <Map Name=\"SpatialExtent\" Link=\"mapstudio/files/spatiale
 xmlAliasData += '    <Map Name=\"Filter\" Link=\"mapstudio/functions/filter.htm\" ResolvedId=\"1154\" />';
 xmlAliasData += '    <Map Name=\"Getting_Support\" Link=\"aboutiftdss/getting support.htm\" ResolvedId=\"1155\" />';
 xmlAliasData += '    <Map Name=\"AboutLandscapesinIFTDSS\" Link=\"concepts/aboutlandscapesiniftdss.htm\" ResolvedId=\"1156\" />';
-xmlAliasData += '    <Map Name=\"FileNaming\" Link=\"getstarted/filenaming.htm\" ResolvedId=\"1157\" />';
 xmlAliasData += '    <Map Name=\"MapStudioTips\" Link=\"mapstudio/mapstudiotips.htm\" ResolvedId=\"1158\" />';
 xmlAliasData += '    <Map Name=\"LocationButton\" Link=\"mapstudio/functions/locationbutton.htm\" ResolvedId=\"1159\" />';
 xmlAliasData += '    <Map Name=\"LandscapeEditTechTopic\" Link=\"pclandscapeeval/landscapeedittechtopic.htm\" ResolvedId=\"1160\" />';

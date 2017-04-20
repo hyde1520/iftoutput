@@ -12,7 +12,6 @@
     <Map Name="Alerts" Link="getstarted/alerts.htm" ResolvedId="1023" />
     <Map Name="GettingHelp" Link="getstarted/gettinghelp.htm" ResolvedId="1024" />
     <Map Name="NavigatingIFTDSS" Link="getstarted/navigatingiftdss.htm" ResolvedId="1025" />
-    <Map Name="OnlineCourses" Link="getstarted/onlinecourses.htm" ResolvedId="1026" />
     <Map Name="WhyIFTDSS" Link="getstarted/whyiftdss.htm" ResolvedId="1029" />
     <Map Name="MapStudioAbout" Link="mapstudio/mapstudioabout.htm" ResolvedId="1030" />
     <Map Name="FBFMInfo" Link="mapstudio/files/fbfminfo.htm" ResolvedId="1031" />
@@ -74,7 +73,6 @@
     <Map Name="Filter" Link="mapstudio/functions/filter.htm" ResolvedId="1154" />
     <Map Name="Getting_Support" Link="aboutiftdss/getting support.htm" ResolvedId="1155" />
     <Map Name="AboutLandscapesinIFTDSS" Link="concepts/aboutlandscapesiniftdss.htm" ResolvedId="1156" />
-    <Map Name="FileNaming" Link="getstarted/filenaming.htm" ResolvedId="1157" />
     <Map Name="MapStudioTips" Link="mapstudio/mapstudiotips.htm" ResolvedId="1158" />
     <Map Name="LocationButton" Link="mapstudio/functions/locationbutton.htm" ResolvedId="1159" />
     <Map Name="LandscapeEditTechTopic" Link="pclandscapeeval/landscapeedittechtopic.htm" ResolvedId="1160" />
