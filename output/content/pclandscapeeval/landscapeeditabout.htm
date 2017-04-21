@@ -77,6 +77,22 @@
                                                 </li>
                                                 <li><a href="../getstarted/navigatingiftdss.htm">Navigate IFTDSS (An Overview)</a>
                                                 </li>
+                                                <li class="has-children"><a href="../tutorials/comparefeature/0_intro.htm">Comparing Landscapes (A Tutorial)</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="../tutorials/comparefeature/1_projectbegin.htm">Beginning a Project</a>
+                                                        </li>
+                                                        <li><a href="../tutorials/comparefeature/2_createlcp.htm">Create a landscape</a>
+                                                        </li>
+                                                        <li><a href="../tutorials/comparefeature/3_edit.htm">Evaluate and Edit</a>
+                                                        </li>
+                                                        <li><a href="../tutorials/comparefeature/4_idpriority.htm">Summarize and Prioritize</a>
+                                                        </li>
+                                                        <li><a href="../tutorials/comparefeature/5_treatmentpoly.htm">Create Treatment Polygons</a>
+                                                        </li>
+                                                        <li><a href="../tutorials/comparefeature/6_compare.htm">Treatment Comparison</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
                                                 <li><a href="../getstarted/gettinghelp.htm">Getting Help</a>
                                                 </li>
                                             </ul>
@@ -192,6 +208,12 @@
                                         <li class="has-children"><a href="#">Resources</a>
                                             <ul class="sub-menu">
                                                 <li><a href="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ">Videos</a>
+                                                </li>
+                                                <li class="has-children"><a href="../tutorials/tutorialmain.htm">Tutorials</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="../tutorials/comparefeature/0_intro.htm">Comparing Landscapes</a>
+                                                        </li>
+                                                    </ul>
                                                 </li>
                                                 <li><a href="../references/referencelist.htm">References</a>
                                                 </li>
@@ -339,8 +361,10 @@
                                         </div>
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Add Landscape Edit Rule</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>You may create your own landscape edit rules by selecting specific conditions, and specifying what modifications to make where ever those conditions occur.</p>
-                                                <p>To split the view and display your mapped area on the left, and this interface on the right, select the <img src="../resources/images/treatment_compare/button_showsplitmap.png" alt="show split map button" /><span class="UIcomponent">show split map</span> button at the top left of the page. </p>
+                                                <div class="notificationNote">
+                                                    <p>You may create your own landscape edit rules by selecting specific conditions, and specifying what modifications to make where ever those conditions occur.</p>
+                                                    <p>To split the view and display your mapped area on the left, and this interface on the right, select the <img src="../resources/images/treatment_compare/button_showsplitmap.png" alt="show split map button" class="button" /><span class="UIcomponent">show split map</span> button at the top left of the page. </p>
+                                                </div>
                                                 <p>
                                                     <img src="../resources/images/landscape_edits/create_rules_651x471.png" alt="Adding a landscape edit rule using the dropdown and text fields to specify attributes, operators, modifiers, and values" style="width: 651;height: 471;" />
                                                 </p>
@@ -348,8 +372,8 @@
                                                     <li value="1">Begin by selecting your <span class="UIcomponent">Starting Landscape</span> which you would like to edit</li>
                                                     <li value="2">View the Add Landscape Rule options by either selecting the <span class="UIcomponent">Add Landscape&#160;Edit Rule +</span> sign just below the starting landscape field, or select the dropdown arrow to the far right of the <span class="UIcomponent">Add Landscape&#160;Edit Rule</span> heading.</li>
                                                     <li value="3">Specify the conditions you would like to select in the fields below <span class="UIcomponent">Where these conditions exist</span>. In this example we have selected 'Fuel Model' as the Attribute, 'is equal to' as the Operator and fire behavior fuel model '165 (TU5)' as the Value. This selected all TU5 fuel modeled areas across the landscape.</li>
-                                                    <li value="4">Specify what you would like change conditions to by populating the fields below <span class="UIcomponent">Modify the following values</span>. In this example we have selected 'Canopy Cover' as the Attribute, 'decrease by' as the Operator, and '5' (for 5 percent) as the Value. For all TU5 fuel modeled areas, we will decrease the canopy cover by 5 percent. </li>
-                                                    <li value="5"><span class="UIcomponent">The Apply to Landscape Mask</span> (optional) dropdown allows you to select a shapefile to which these edits will be contained. If this is left blank, the edits will be applied to the entire landscape.</li>
+                                                    <li value="4">Specify the conditions you would like to change by populating the fields below <span class="UIcomponent">Modify the following values</span>. In this example we have selected 'Canopy Cover' as the Attribute, 'decrease by' as the Operator, and '5' (for 5 percent) as the Value. For all TU5 fuel modeled areas, we will decrease the canopy cover by 5 percent. </li>
+                                                    <li value="5">The <span class="UIcomponent">Apply to Landscape Mask</span> (optional) dropdown allows you to select a shapefile to which these edits will be contained. If this is left blank, the edits will be applied to the entire landscape.</li>
                                                     <li value="6">When you are ready to apply this rule select the <span class="UIcomponent">Add to Rules</span> button. Notice the rule has been added to you list, and the order noted. You can delete rules before saving by using the delete button <img src="../resources/images/landscape_edits/button_delete.png" alt="delete button" /> to the right of each rule. </li>
                                                     <div>
                                                         <div class="notificationImportant">
@@ -360,7 +384,7 @@
                                                             <img src="../resources/images/landscape_edits/rule_created.png" alt="green notification box appearing to let the user know a new rule has been saved" />
                                                         </p>
                                                     </div>
-                                                    <li value="7">Once you have all the rules, in the order you would like them applied, give your landscape a descriptive name and select Save New Landscape. Your original landscape will remain, and an edited copy will now be available throughout <span class="GeneralProductName">IFTDSS</span>.</li>
+                                                    <li value="7">Once you have all the rules, in the order you would like them applied, give your landscape a descriptive name and select <span class="UIcomponent">Save New Landscape</span>. Your original landscape will remain, and an edited copy will now be available throughout <span class="GeneralProductName">IFTDSS</span>.</li>
                                                 </ol>
                                             </div>
                                         </div>

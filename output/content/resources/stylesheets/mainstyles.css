@@ -264,7 +264,7 @@ h3
 	margin-top: 16px;
 }
 
-img
+img	/*applies to printed output only*/
 {
 	
 }
@@ -675,9 +675,19 @@ html.templateTopic div.sideContent
 {
 	body
 	{
-		font-size: 8pt;
-		line-height: 13px;
+		font-size: 10pt;
+		line-height: 16px;
 		margin: 8px;
+	}
+
+	img
+	{
+		max-width: 600px;
+	}
+
+	img.button
+	{
+		max-height: 15px;
 	}
 
 	div.GlossaryPageDefinition
@@ -842,7 +852,7 @@ html.templateTopic div.sideContent
 
 	p
 	{
-		font-size: 8pt;
+		font-size: 10pt;
 	}
 
 	p.Copyright
@@ -1101,5 +1111,10 @@ html.templateTopic div.sideContent
 html.FieldLeveltopics
 {
 	mc-master-page: url('../masterpages/fieldleveltopics.flmsp');
+}
+
+img.button	/*will apply only to print*/
+{
+	
 }
 
