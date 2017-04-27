@@ -78,5 +78,13 @@ xmlAliasData += '    <Map Name=\"MapStudioTips\" Link=\"mapstudio/mapstudiotips.
 xmlAliasData += '    <Map Name=\"LocationButton\" Link=\"mapstudio/functions/locationbutton.htm\" ResolvedId=\"1159\" />';
 xmlAliasData += '    <Map Name=\"LandscapeEditTechTopic\" Link=\"pclandscapeeval/landscapeedittechtopic.htm\" ResolvedId=\"1160\" />';
 xmlAliasData += '    <Map Name=\"Glossary1\" Link=\"references/glossary.htm\" ResolvedId=\"1161\" />';
+xmlAliasData += '    <Map Name=\"RuleOrdering\" Link=\"concepts/ruleordering.htm\" ResolvedId=\"1162\" />';
+xmlAliasData += '    <Map Name=\"_0_Intro\" Link=\"tutorials/comparefeature/0_intro.htm\" ResolvedId=\"1163\" />';
+xmlAliasData += '    <Map Name=\"_1_ProjectBegin\" Link=\"tutorials/comparefeature/1_projectbegin.htm\" ResolvedId=\"1164\" />';
+xmlAliasData += '    <Map Name=\"_2_CreateLCP\" Link=\"tutorials/comparefeature/2_createlcp.htm\" ResolvedId=\"1165\" />';
+xmlAliasData += '    <Map Name=\"_3_Edit\" Link=\"tutorials/comparefeature/3_edit.htm\" ResolvedId=\"1166\" />';
+xmlAliasData += '    <Map Name=\"_4_IdPriority\" Link=\"tutorials/comparefeature/4_idpriority.htm\" ResolvedId=\"1167\" />';
+xmlAliasData += '    <Map Name=\"_5_treatmentPoly\" Link=\"tutorials/comparefeature/5_treatmentpoly.htm\" ResolvedId=\"1168\" />';
+xmlAliasData += '    <Map Name=\"_6_Compare\" Link=\"tutorials/comparefeature/6_compare.htm\" ResolvedId=\"1169\" />';
 xmlAliasData += '</CatapultAliasFile>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);
