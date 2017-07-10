@@ -85,7 +85,7 @@ div.ImagesFloatRight
 
 [class^=notification]
 {
-	width: 60%;
+	width: 90%;
 	margin: 12px;
 	/* Relative positioning on the parent
 	notification div allows us to absolutely 
@@ -259,7 +259,7 @@ h2
 h3
 {
 	font-size: 1.1em;
-	font-weight: normal;
+	font-weight: bold;
 	margin-bottom: 4px;
 	margin-top: 16px;
 }
@@ -437,6 +437,15 @@ p
 .comingsoon
 {
 	color: #8d8d8d;
+}
+
+.iftexample
+{
+	margin-left: 30px;
+	font-style: italic;
+	background-color: #AFBFD0;
+	padding: 10px;
+	border-radius: 8px;
 }
 
 p.CompanyInformation1
@@ -752,7 +761,6 @@ html.templateTopic div.sideContent
 	h3
 	{
 		font-size: 10pt;
-		font-weight: normal;
 		line-height: 12pt;
 	}
 

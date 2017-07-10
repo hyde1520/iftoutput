@@ -142,7 +142,14 @@
                                         </div>
                                         <h1>Editing Landscape Data for Landscape Evaluation</h1>
                                         <p>Landscape Editing can occur in both the Landscape Evaluation stage of the Planning Cycle under<span class="UIcomponent"> Landscape Edit</span>, or within the Strategic Planning stage under Develop <span class="UIcomponent">Treatment Alternatives</span>. Menu options and results are the same for both. In editing sessions accessed from the Landscape Evaluation Section, any landscape can be edited. In editing sessions accessed from  the Develop Treatment Alternatives section only certain landscapes may be selected to ensure the comparison between landscapes of the same extent.</p>
-                                        <p>&#160;</p>
+                                        <div class="notificationImportant">
+                                            <p><strong>Important!</strong> Be deliberate in the rules you apply when editing landscapes:</p>
+                                            <ul>
+                                                <li value="1">Rules are applied based on the order in which you add them. Default Treatment and Disturbance rules are always applied first. If Default rules overlap each other the last (latest) rule is retained, prior Default rules in the same editing session may be ignored.  If user-created rules overlap each other, the first rule is retained.</li>
+                                                <li value="2">After applying rules to a given landscape you should always validate that your changes have been made as you intended. If you are unsure of the effect of the rules you apply, consider saving a version of your landscape after each edit to allow for easy comparison of the changes made by each edit rule you apply.</li>
+                                            </ul>
+                                            <p>For further detail see the '<a href="../concepts/ruleordering.htm" target="_blank">Rule Ordering Considerations</a>' and the '<a href="landscapeedittechtopic.htm">Rule Technical Documentation</a>' Topics</p>
+                                        </div>
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Getting Ready to Edit</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <p><span class="UIcomponent">Edit Landscape</span> will walk you through editing your landscape based on a default set of rules you select, or a custom set of rules you create.</p>
@@ -182,14 +189,13 @@
                                                 <p>This time period assumes a median of 4 years. Utilizing the Forest Vegetation Simulator (FVS), the LANDFIRE team utilizes the median of this period to model vegetation recovery and fuel accumulation for the purposes of informing the local workshops of local experts to determine an appropriate new EVT and resulting fuel model.</p>
                                                 <p style="font-weight: bold;">6-10 Year Since Disturbance: </p>
                                                 <p>This time period assumes a median of 8 years. Utilizing the Forest Vegetation Simulator (FVS), the LANDFIRE team utilizes the median of this period to model vegetation recovery and fuel accumulation for the purposes of informing the local workshops of local experts to determine an appropriate new EVT and resulting fuel model.</p>
-                                                <p>&#160;</p>
                                                 <p>You have the option of defining a <span class="UIcomponent">Landscape Mask</span> to apply your rules to. </p>
                                                 <p>Once you have set your rule, select <span class="UIcomponent">Add to Rules</span>. You may add as many rules as necessary.</p>
                                                 <div class="notificationImportant">
                                                     <p>Rules are applied top to bottom, first by Default Fuels Treatment / Disturbance Edit Rules then by user defined Landscape Edit Rules. Currently there is no way to order your rules other than by the order in which you enter them, so be deliberate about how you apply rules and in what order you enter them.</p>
                                                 </div>
                                                 <div class="notificationImportant">
-                                                    <p>If you begin creating editing rules, and navigate away from the edit page without saving, <span class="GeneralProductName">IFTDSS</span> will retain those rules if you return, or begin edits through another part of the system (ie leaving Landscape Evaluation edits and then going into landscape comparison and editing). Partially completed edits will persist until they are saved or deleted.</p>
+                                                    <p>If you begin creating editing rules, and navigate away from the edit page without saving, <span class="GeneralProductName">IFTDSS</span> will retain those rules if you return, or begin edits through another part of the system (e.g.leaving Landscape Evaluation edits and then going into landscape comparison and editing). Partially completed edits will persist until they are saved or deleted.</p>
                                                 </div>
                                             </div>
                                         </div>
