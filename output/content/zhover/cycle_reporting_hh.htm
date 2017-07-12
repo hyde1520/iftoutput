@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta charset="utf-8" />
         <meta name="description" content="" />
-        <meta name="author" content="" /><title>Rule Ordering Considerations when Editing Landscapes</title>
+        <meta name="author" content="" /><title>cycle_reporting_hh</title>
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
         <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
@@ -41,6 +41,7 @@
 
 </style>
         <link href="../resources/stylesheets/mainstyles.css" rel="stylesheet" />
+        <link href="../resources/stylesheets/notopnav.css" rel="stylesheet" />
         <script src="../../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../../Resources/Scripts/jquery.min.js">
@@ -136,26 +137,10 @@
                                             <ul class="nocontent menu _Skins_SideMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/IFTDSS_Online_Output.js" data-mc-side-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
                                             </ul>
                                         </div>
-                                        <h1><a name="kanchor5"></a><a name="kanchor6"></a>Rule Ordering Considerations when <a name="kanchor7"></a>Editing Landscapes</h1>
-                                        <div class="notificationImportant">
-                                            <p><strong>Important!</strong> Be deliberate in the rules you apply when editing landscapes:</p>
-                                            <ul>
-                                                <li value="1">Rules are applied based on the order in which you add them. Default Treatment and Disturbance rules are always applied first. If Default rules overlap each other the last (latest) rule is retained, prior Default rules in the same editing session may be ignored.  If user-created rules overlap each other, the first rule is retained.</li>
-                                                <li value="2">After applying rules to a given landscape you should always validate that your changes have been made as you intended. If you are unsure of the effect of the rules you apply, consider saving a version of your landscape after each edit to allow for easy comparison of the changes made by each edit rule you apply.</li>
-                                            </ul>
-                                            <p>For further detail see the '<a href="#" target="_blank" class="selected">Rule Ordering Considerations</a>' and the '<a href="../pclandscapeeval/landscapeedittechtopic.htm">Rule Technical Documentation</a>' Topics</p>
-                                        </div>
-                                        <p>Below we outline the way in which “rules” are applied to the landscape when you make edits, either as part of the Landscape Evaluation stage, or the Strategic Planning stage.</p>
-                                        <p>Rules are applied top to bottom, first by Default Fuels Treatment / Disturbance Edit Rules then by user defined Landscape Edit Rules.</p>
-                                        <ul>
-                                            <li value="1"><strong>Default Fuels Treatment / Disturbance Edit Rules</strong> utilize LANDFIRE look-up (LFLU) and Fuel Model look-up (FMLU) processes outlined in the <a href="../pclandscapeeval/landscapeedittechtopic.htm" target="_blank">Rule Technical Documentation Topic</a>. When applying Default Fuels Treatment / Disturbance Edit Rules:<ul><li value="1">Rules are only applied to a previously unedited landscape or a landscape in which only Default Fuels Treatment / Disturbance Edit Rules have been applied.</li><li value="2">Within the rules utilizing the LFLU and FMLU tables, it is the last edit to a particular cell fuel attribute that applies that is utilized as input for user defined “Landscape Edit Rules”.</li></ul></li>
-                                            <li value="2">When user-defined <strong>Landscape Edit Rules</strong> are applied:<ul><li value="1">A fuel attribute of a given cell can only be changed once.</li><li value="2">It is the <span class="Emphasis">FIRST</span> edit of a fuel attribute for a cell that affects the change, not the last.</li><li value="3">Fuel attributes are considered separately when applying Landscape Edit Rules. So a rule that modifies fuel model for a particular cell does not preclude canopy cover or another fuel attribute from being modified by a subsequent rule.</li></ul></li>
-                                        </ul>
-                                        <h2>Rule ordering Background</h2>
-                                        <p>It is important to understand the intricacies of how landscape edit rules are applied to a landscape. There are 2 ways in which landscape edits are implemented on the landscape. The first is the Default Fuels Treatment / Disturbance Edit Rules that use the LANDFIRE Lookup (LFLU) and Fuel Model Lookup (FMLU) tables. The second is user defined Landscape Edit Rules.  Rules are applied top to bottom in the list, first by Default Fuels Treatment / Disturbance Edit Rules, then by Landscape Edit Rules. The Default Fuels Treatment / Disturbance Edit Rules are ALWAYS applied BEFORE the user define Landscape Edit Rules.</p>
-                                        <p>The LFLU tables can only be used when Existing Vegetation Type (EVT), Existing Vegetation Height (EVH), and Existing Vegetation Cover (EVC) are present in your landscape data, as this is what is used for conversion in the LFLU tables based on the type, intensity and timing of treatment and disturbance. When a user applies their own Landscape Edit Rule that modifies the fuel model, stand height or canopy cover for a given landscape cell, the EVT, EVH, and EVC are set to 0 for that cell, which precludes the use of LFLU for future edits. Since LFLU can no longer be used the IFTDSS team has developed a second set of lookup tables called the Fuel Model Lookup (FMLU) tables . The FMLU tables are less accurate because they are a generalization of the LFLU tables. This generalization was necessary because there are many more values for EVT than there are Fuel Models.  (For more details, see the <a href="../pclandscapeeval/landscapeedittechtopic.htm">Editing Rule Technical Documentation Topic</a>)</p>
-                                        <p>The actual effect of the rules do differ between Default Fuels Treatment / Disturbance Edit Rules and user defined Landscape Edit Rules. In the case of Default Fuels Treatment / Disturbance Edit Rules, it is the LAST of the rules with a particular effect on a cell being the final LFLU/FMLU edit to a particular cell. For Default Fuels Treatment / Disturbance Edit Rules, note that the output (if any) from the previous rule is always the input to the next rule in the list. When starting to apply user defined Landscape Edit Rules the FIRST fuel model attribute change applied to a cell is the edit that will be reflected in the resultant landscape. It’s important to note that each fuel attribute (fuel model, canopy cover, canopy height, canopy bulk density, and canopy base height) for a cell is treated separately, so although a cell may be locked due to an edit for fuel model, any of the other attributes may be modified by a subsequent rule.</p>
-                                        <p>Once your rules are defined and ordered correctly, you need to make sure that your resulting landscape reflects your intended changes.</p>
+                                        <p>This section of the app will be built in future development cycles. </p>
+                                        <p>Reporting will allow users to compile reports from the Fuels Treatment Effectiveness Monitoring (FTEM) Database, extract fuels treatment data and analyses for Line of Business reports and produce fuels treatment success stories.</p>
+                                        <p><a href="https://iftdsshelp.freshdesk.com/discussions/forums/22000059283" target="_blank">Do you have features you'd like to see in Reporting?</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>

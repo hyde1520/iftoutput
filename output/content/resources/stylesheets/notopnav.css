@@ -1131,3 +1131,18 @@ p.test
 	
 }
 
+nav.tab-bar
+{
+	display: none !important;
+}
+
+.MCBreadcrumbsBox_0
+{
+	display: none !important;
+}
+
+.sideContent
+{
+	display: none !important;
+}
+

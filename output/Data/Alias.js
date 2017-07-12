@@ -86,5 +86,17 @@ xmlAliasData += '    <Map Name=\"_3_Edit\" Link=\"tutorials/comparefeature/3_edi
 xmlAliasData += '    <Map Name=\"_4_IdPriority\" Link=\"tutorials/comparefeature/4_idpriority.htm\" ResolvedId=\"1167\" />';
 xmlAliasData += '    <Map Name=\"_5_treatmentPoly\" Link=\"tutorials/comparefeature/5_treatmentpoly.htm\" ResolvedId=\"1168\" />';
 xmlAliasData += '    <Map Name=\"_6_Compare\" Link=\"tutorials/comparefeature/6_compare.htm\" ResolvedId=\"1169\" />';
+xmlAliasData += '    <Map Name=\"UsingMasks\" Link=\"concepts/usingmasks.htm\" ResolvedId=\"1176\" />';
+xmlAliasData += '    <Map Name=\"AccountPassword\" Link=\"getstarted/accountpassword.htm\" ResolvedId=\"1177\" />';
+xmlAliasData += '    <Map Name=\"AccountProfile\" Link=\"getstarted/accountprofile.htm\" ResolvedId=\"1178\" />';
+xmlAliasData += '    <Map Name=\"cycle_implementation_plan_hh\" Link=\"zhover/cycle_implementation_plan_hh.htm\" ResolvedId=\"1183\" />';
+xmlAliasData += '    <Map Name=\"cycle_intro_hh\" Link=\"zhover/cycle_intro_hh.htm\" ResolvedId=\"1184\" />';
+xmlAliasData += '    <Map Name=\"cycle_landscape_eval_hh\" Link=\"zhover/cycle_landscape_eval_hh.htm\" ResolvedId=\"1185\" />';
+xmlAliasData += '    <Map Name=\"cycle_monitoring_hh\" Link=\"zhover/cycle_monitoring_hh.htm\" ResolvedId=\"1186\" />';
+xmlAliasData += '    <Map Name=\"cycle_reporting_hh\" Link=\"zhover/cycle_reporting_hh.htm\" ResolvedId=\"1187\" />';
+xmlAliasData += '    <Map Name=\"cycle_strategic_plan_DTA_hh\" Link=\"zhover/cycle_strategic_plan_dta_hh.htm\" ResolvedId=\"1188\" />';
+xmlAliasData += '    <Map Name=\"cycle_strategic_plan_hh\" Link=\"zhover/cycle_strategic_plan_hh.htm\" ResolvedId=\"1189\" />';
+xmlAliasData += '    <Map Name=\"myworkspace_folders_hh\" Link=\"zhover/myworkspace_folders_hh.htm\" ResolvedId=\"1190\" />';
+xmlAliasData += '    <Map Name=\"myworkspace_intro_hh\" Link=\"zhover/myworkspace_intro_hh.htm\" ResolvedId=\"1191\" />';
 xmlAliasData += '</CatapultAliasFile>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);
