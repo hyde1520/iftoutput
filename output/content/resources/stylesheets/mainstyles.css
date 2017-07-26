@@ -85,7 +85,7 @@ div.ImagesFloatRight
 
 [class^=notification]
 {
-	width: 90%;
+	width: 65%;
 	margin: 12px;
 	/* Relative positioning on the parent
 	notification div allows us to absolutely 
@@ -606,7 +606,7 @@ p.TOCHeading
 
 span.Emphasis
 {
-	font-weight: bold;
+	font-style: italic;
 }
 
 span.UIcomponent

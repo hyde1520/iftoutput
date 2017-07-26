@@ -10,10 +10,16 @@ body
 	line-height: 1.5em;
 }
 
-a.BlackText
+a:link,
+a:visited
 {
-	color: #000000;
+	color: #293b49;
 	text-decoration: none;
+}
+
+a:hover
+{
+	color: orange;
 }
 
 h1
@@ -37,6 +43,13 @@ h2.timelinehead
 	padding-left: 6px;
 }
 
+h4.card
+{
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
 img.Hyperlinked
 {
 	border-style: none;
@@ -57,6 +70,15 @@ p
 	color: #5a5a5a;
 	margin-bottom: 8px;
 	margin-top: 8px;
+}
+
+p.card
+{
+	font-size: 14px;
+	padding: 0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	line-height: 1.5;
 }
 
 p.Copyright
@@ -241,7 +263,7 @@ div.topichero
 	background-repeat: no-repeat;
 	padding-top: 60px;
 	height: auto;
-	padding-bottom: 120px;
+	padding-bottom: 60px;
 }
 
 div.topichero h1
@@ -279,6 +301,42 @@ div.slidingshow
 .mc-wrapper .mc-caption
 {
 	background: none;
+}
+
+/* Home Page iftpanel Section */
+
+.iftpanel-section
+{
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.iftpanel-section img
+{
+	max-width: 50px;
+	max-height: 50px;
+	/*padding-right: 10px;
+	padding-bottom: 10px;*/
+}
+
+.iftpanel-wrapper
+{
+	background-color: #f8f8f8;
+	width: 230px;
+	height: 240px;
+	padding: 20px;
+	margin: 5px;
+	text-align: center;
+}
+
+.iftpanel
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 /* Home Page Video Section */
@@ -692,6 +750,61 @@ div.HomeVideoSection > div:nth-child(3)
 	width: 33.33333%;
 }
 
+div.HomeiftpanelSection	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.HomeiftpanelSection::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.HomeiftpanelSection::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.HomeiftpanelSection > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+div.HomeiftpanelSection > div:nth-child(1)
+{
+	width: 25%;
+}
+
+div.HomeiftpanelSection > div:nth-child(2)
+{
+	width: 25%;
+}
+
+div.HomeiftpanelSection > div:nth-child(3)
+{
+	width: 25%;
+}
+
+div.HomeiftpanelSection > div:nth-child(4)
+{
+	width: 25%;
+}
+
+div.middle title-bar-section outer-row
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
 /* Medium Layout */
 
 @media only screen and (max-width: 1024px)
@@ -801,6 +914,26 @@ div.HomeVideoSection > div:nth-child(3)
 	div.HomeVideoSection > div:nth-child(3)
 	{
 		width: 33.33333%;
+	}
+
+	div.HomeiftpanelSection > div:nth-child(1)
+	{
+		width: 25%;
+	}
+
+	div.HomeiftpanelSection > div:nth-child(2)
+	{
+		width: 25%;
+	}
+
+	div.HomeiftpanelSection > div:nth-child(3)
+	{
+		width: 25%;
+	}
+
+	div.HomeiftpanelSection > div:nth-child(4)
+	{
+		width: 25%;
 	}
 }
 
@@ -936,6 +1069,30 @@ div.HomeVideoSection > div:nth-child(3)
 	}
 
 	div.HomeVideoSection > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.HomeiftpanelSection > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.HomeiftpanelSection > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.HomeiftpanelSection > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.HomeiftpanelSection > div:nth-child(4)
 	{
 		width: 100%;
 		margin-left: 0%;

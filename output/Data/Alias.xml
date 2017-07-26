@@ -50,7 +50,6 @@
     <Map Name="StrategicPlanningAbout" Link="pcstrategicplanning/strategicplanningabout.htm" ResolvedId="1108" />
     <Map Name="TrtmtAltsCompareLndscp" Link="pcstrategicplanning/trtmtaltscomparelndscp.htm" ResolvedId="1111" />
     <Map Name="TrtmtAltsEditLandscp" Link="pcstrategicplanning/trtmtaltseditlandscp.htm" ResolvedId="1112" />
-    <Map Name="FBFMCompare" Link="references/fbfmcompare.htm" ResolvedId="1124" />
     <Map Name="LANDFIRE" Link="references/landfire.htm" ResolvedId="1125" />
     <Map Name="ReferenceList" Link="references/referencelist.htm" ResolvedId="1126" />
     <Map Name="icons" Link="resources/stylesheets/icons/icons.html" ResolvedId="1127" />
@@ -81,7 +80,6 @@
     <Map Name="_0_Intro" Link="tutorials/comparefeature/0_intro.htm" ResolvedId="1163" />
     <Map Name="_1_ProjectBegin" Link="tutorials/comparefeature/1_projectbegin.htm" ResolvedId="1164" />
     <Map Name="_2_CreateLCP" Link="tutorials/comparefeature/2_createlcp.htm" ResolvedId="1165" />
-    <Map Name="_3_Edit" Link="tutorials/comparefeature/3_edit.htm" ResolvedId="1166" />
     <Map Name="_4_IdPriority" Link="tutorials/comparefeature/4_idpriority.htm" ResolvedId="1167" />
     <Map Name="_5_treatmentPoly" Link="tutorials/comparefeature/5_treatmentpoly.htm" ResolvedId="1168" />
     <Map Name="_6_Compare" Link="tutorials/comparefeature/6_compare.htm" ResolvedId="1169" />

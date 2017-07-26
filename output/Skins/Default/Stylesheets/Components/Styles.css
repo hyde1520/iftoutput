@@ -698,14 +698,14 @@ ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 .search-bar._Skins_HomeSearchBar.mc-component .search-field
 {
 	height: 40px;
-	border-top: solid 3px #2e3e4f;
-	border-right: solid 3px #2e3e4f;
-	border-bottom: solid 3px #2e3e4f;
-	border-left: solid 3px #2e3e4f;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
-	border-bottom-right-radius: 25px;
-	border-bottom-left-radius: 25px;
+	border-top: solid 1px #2e3e4f;
+	border-right: solid 1px #2e3e4f;
+	border-bottom: solid 1px #2e3e4f;
+	border-left: solid 1px #2e3e4f;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
 	color: #5F5F5F;
 	font-size: 1em;
 	padding-left: 10px;
@@ -715,8 +715,8 @@ ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 .search-bar._Skins_HomeSearchBar.mc-component .search-filter
 {
 	height: 40px;
-	border-top: solid 3px #2e3e4f;
-	border-bottom: solid 3px #2e3e4f;
+	border-top: solid 1px #2e3e4f;
+	border-bottom: solid 1px #2e3e4f;
 	border-right: solid 1px #000000;
 	border-left: solid 1px #000000;
 	width: 45px;
@@ -727,11 +727,11 @@ ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 .search-bar._Skins_HomeSearchBar.mc-component .search-submit
 {
 	height: 40px;
-	border-top: solid 3px #2e3e4f;
-	border-right: solid 3px #2e3e4f;
-	border-bottom: solid 3px #2e3e4f;
-	border-top-right-radius: 25px;
-	border-bottom-right-radius: 25px;
+	border-top: solid 1px #2e3e4f;
+	border-right: solid 1px #2e3e4f;
+	border-bottom: solid 1px #2e3e4f;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
 }
 
 ._Skins_HomeSearchBar.mc-component .search-filter-content
@@ -799,12 +799,12 @@ ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 .search-bar.search-bar-container._Skins_HomeSearchBar.mc-component .search-submit
 {
 	width: 56px;
-	background: #E88127 url('Images/SearchIcon.png') no-repeat center center;
-	-pie-background: #E88127 url('Skins/Default/Stylesheets/Components/Images/SearchIcon.png') no-repeat center center;
+	background: #f5f5f5 url('Images/SearchIcon.png') no-repeat center center;
+	-pie-background: #f5f5f5 url('Skins/Default/Stylesheets/Components/Images/SearchIcon.png') no-repeat center center;
 }
 
 .search-bar.search-bar-container._Skins_HomeSearchBar.mc-component .search-submit:hover
 {
-	background-color: #E88127;
+	background-color: #f5f5f5;
 }
 
