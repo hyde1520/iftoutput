@@ -143,7 +143,7 @@
                                         <h1><a name="kanchor165"></a><a name="kanchor166"></a>Comparing Landscapes to <a name="kanchor167"></a>Develop <a name="kanchor168"></a>Treatment Alternatives</h1>
                                         <p>Developing Treatment Alternatives facilitates evaluation of fuel treatment alternatives and their spatial arrangement on the landscape. It allows you to create several edited versions of a landscape or treatment area, run a fire behavior simulation for some or all of the edited landscapes, and compare the results for each treatment on fire behavior spatially, and create reports with charts and tables if desired. The task is divided into five steps:</p>
                                         <ul>
-                                            <li value="1">Pick a landscape</li>
+                                            <li value="1">Pick a landscape and (optional) <a href="../concepts/usingmasks.htm" target="_blank">area of interest</a></li>
                                             <li value="2">Edit the landscape</li>
                                             <li value="3">Enter model inputs</li>
                                             <li value="4">Run the model for some or all of the edited landscapes</li>
@@ -162,7 +162,7 @@
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Choose an Originating Landscape</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <p>
-                                                    <img src="../resources/images/treatment_compare/select_landscape_541x265.png" style="float: right;padding-left: 5px;padding-right: 5px;width: 541;height: 265;" alt="treatment comparison interface with a dropdown list of landscapes to select, or button to create a new landscape" />Use the <span class="UIcomponent">Pick a Landscape</span> tab to create or select a starting unedited landscape. The landscape selected in this step initiates your comparison session and will be marked with “0” throughout the workflow.  The “0” indicates the original landscape extracted from LANDFIRE that has not been edited. In subsequent tabs, all landscapes that match this extent will be available for you to work with. In the next tab, the <span class="UIcomponent">Edit Landscape</span> tab, you may edit any of these landscapes. </p>
+                                                    <img src="../resources/images/treatment_compare/select_landscape_541x265.png" style="float: right;padding-left: 5px;padding-right: 5px;width: 541;height: 265;" alt="treatment comparison interface with a dropdown list of landscapes to select, or button to create a new landscape" />Use the <span class="UIcomponent">Pick a Landscape</span> tab to create or choose a starting unedited landscape. The landscape chosen or created in this step initiates your comparison session and will be marked with “0” throughout the workflow.  The “0” indicates the original landscape extracted from LANDFIRE that has not been edited. In subsequent tabs, all landscapes that match this extent will be available for you to work with. In the next tab, the <span class="UIcomponent">Edit Landscape</span> tab, you may edit any of these landscapes. You may use the area of Interest field to constrain your analysis to a specific area within the landscape.</p>
                                                 <p>Landscape “0” defines the landscape extent through the rest of the comparison process. You may also use it to represent your existing landscape if desired, or edit it in the next step (editing)&#160;to represent your Existing Condition (EC). You may also work from any other available files that match the extent of landscape "0".</p>
                                                 <p>To complete this step either:</p>
                                                 <p>Use the <span class="UIcomponent">Select Landscape</span> drop-down menu to select an existing un-edited landscape from your workspace or, </p>
@@ -174,7 +174,7 @@
                                                 <p>
                                                     <img src="../resources/images/treatment_compare/edit_660x324.png" alt="The edit landscape interface with default treatment rule options that can be selected upon clicking, or landscape edit rules that can be created by the user." style="float: right;padding-left: 5px;padding-right: 5px;width: 660;height: 324;" />Here you will edit landscapes to develop your treatment alternatives. The landscape(s) available here will include: </p>
                                                 <ul>
-                                                    <li value="1">your unedited LANDFIRE landscape selected in the previous step (these will be referred to as the “0” landscape) </li>
+                                                    <li value="1">your unedited LANDFIRE landscape chosen or created in the previous step (these will be referred to as the “0” landscape) </li>
                                                     <li value="2">and any landscapes matching that extent. </li>
                                                 </ul>
                                                 <p>Create your treatment alternatives by altering your your Existing Condition landscape.</p>
@@ -187,18 +187,18 @@
                                                     <p>If you had not created an Existing Landscape yet, that could also be done here, and then edited to represent treatments.</p>
                                                 </div>
                                                 <div class="notificationNote">
-                                                    <p>You may create your own landscape edit rules by selecting specific conditions, and specifying what modifications to make where ever those conditions occur.</p>
-                                                    <p>To split the view and display your mapped area on the left, and this interface on the right, select the <img src="../resources/images/treatment_compare/button_showsplitmap.png" alt="show split map button" class="button" title="Split map button" /><span class="UIcomponent">show split map</span> button at the top left of the page. </p>
+                                                    <p>You may create landscape edit 9User-created) rules by selecting specific conditions, and specifying what modifications to make where ever those conditions occur.</p>
+                                                    <p>To split the view and display your mapped area on the left, and this interface on the right, click the <img src="../resources/images/treatment_compare/button_showsplitmap.png" alt="show split map button" class="button" title="Split map button" /><span class="UIcomponent">show split map</span> button at the top left of the page. </p>
                                                 </div>
                                                 <p>
                                                     <img src="../resources/images/landscape_edits/create_rules_651x471.png" alt="Adding a landscape edit rule using the dropdown and text fields to specify attributes, operators, modifiers, and values" style="width: 651;height: 471;" title="Jump to Edit a Landscape page" />
                                                 </p>
                                                 <ol style="list-style-type: upper-alpha;">
-                                                    <li value="1">Select the <span class="UIcomponent">Starting Landscape</span> you want to edit.</li>
-                                                    <li value="2">View the Add Landscape Rule options by selecting the dropdown arrow to the far right of the <span class="UIcomponent">Add Landscape&#160;Edit Rule</span> heading.</li>
+                                                    <li value="1">Choose the <span class="UIcomponent">Starting Landscape</span> you want to edit.</li>
+                                                    <li value="2">View the Add Landscape Rule options by clicking the dropdown arrow to the far right of the <span class="UIcomponent">Add Landscape&#160;Edit Rule</span> heading.</li>
                                                     <li value="3">Specify the conditions you would like to select in the fields below <span class="UIcomponent">Where these conditions exist</span>. In this example we have selected 'Fuel Model' as the Attribute, 'is equal to' as the Operator and fire behavior fuel model '165 (TU5)' as the Value. This selected all TU5 fuel modeled areas across the landscape.</li>
                                                     <li value="4">Specify the conditions you would like to change by populating the fields below <span class="UIcomponent">Modify the following values</span>. In the example pictured here we have selected 'Canopy Cover' as the Attribute, 'decrease by' as the Operator, and '5' (for 5 percent) as the Value. For all TU5 fuel modeled areas, the application decreases the canopy cover by 5 percent. </li>
-                                                    <li value="5">The <span class="UIcomponent">Apply to Landscape Mask</span> (optional) dropdown allows you to select a shapefile  these edits will be contained. When this field is left blank, the edits are applied to the entire landscape.</li>
+                                                    <li value="5">The <span class="UIcomponent">Apply to Landscape Mask</span> (optional) dropdown allows you to constrain your edits to the area within a shapefile of your choosing. When this field is left blank, the edits are applied to the entire landscape.</li>
                                                     <li value="6">When you are ready to apply this rule select <span class="UIcomponent">Add to Rules</span>. Notice the rule has been added to the list, and the order noted. You can delete rules before saving by using the delete button <img src="../resources/images/landscape_edits/button_delete.png" alt="delete button" title="Image of the Delete Button" /> to the right of each rule. </li>
                                                     <div>
                                                         <div class="notificationImportant">
@@ -228,7 +228,7 @@
                                                 <ol>
                                                     <li value="1">Type wind speed and wind direction in the <span class="UIcomponent">Wind</span> section
 					</li>
-                                                    <li value="2">Select <span class="UIcomponent">Crown Fire Method </span>and enter <span class="UIcomponent">Foliar Moisture Content</span> in the <span class="UIcomponent">Crown Fire Inputs</span> section
+                                                    <li value="2">Choose a <span class="UIcomponent">Crown Fire Method </span>and enter <span class="UIcomponent">Foliar Moisture Content</span> in the <span class="UIcomponent">Crown Fire Inputs</span> section
 					</li>
                                                     <li value="3">Populate the timelag and herbaceous and woody fuel moisture percentages in the <span class="UIcomponent">Initial Fuel Moisture</span> section
 					(Optional) </li>
@@ -256,7 +256,7 @@
                                                 <div class="notificationComingSoon">
                                                     <p>Currently <span class="GeneralProductName">IFTDSS</span> only runs Landscape Fire Behavior but more models will be integrated soon. </p>
                                                 </div>
-                                                <p> Feel free to accept the default name or rename your model run.  Now you can produce Landscape Fire Behavior for landscapes of your choosing by selecting Run Model after the landscapes you would like to compare.  Use the refresh button to check status.  
+                                                <p> Feel free to accept the default name or rename your model run.  Now you can produce Landscape Fire Behavior for landscapes of your choosing by clicking <span class="UIcomponent">Run Model</span> next to each of the landscapes you would like to compare.  Use the refresh button to check status.  
 
 				</p>
                                                 <p>To complete this step:
@@ -297,7 +297,7 @@
                                                 <ul>
                                                     <li value="1">View on Map where, if it is not already open, will open the split screen and will display the difference grid for the landscapes you choose.  The layers list should also be open and will list the two landscapes, two model outputs, and two difference grids (landscape diff and model output diff) to view.
 					</li>
-                                                    <li value="2">Compare in <span class="UIcomponent">Summary Report</span> where a pop up box will come up for you to select <span class="UIcomponent">Create Report</span> for either or both of Landscape Compare or Fire Behavior Compare.  Use the refresh button to check status.  Once the report has been created you can click on the blue hyper link opening a new tab where you can view, download or print your report.
+                                                    <li value="2">Compare in <span class="UIcomponent">Summary Report</span> where a pop up box will appear in which you may click <span class="UIcomponent">Create Report</span> for either or both of Landscape Compare or Fire Behavior Compare.  Use the refresh button to check status.  Once the report has been created you can click on the blue hyper link opening a new tab where you can view, download or print your report.
 </li>
                                                 </ul>
                                                 <p>When making map comparisons, you will see the landscape and model output for each landscape, and a comparison layer for each, six layers in all:</p>
@@ -313,7 +313,7 @@
                                                 <p>
                                                     <img src="../resources/images/tutorial_1_comparison/tumapcompare_738x726.png" alt="map layers showing a decrease in flame length, rate of spread, and crown fire" style="width: 738;height: 726;" />
                                                 </p>
-                                                <p>Using the <span class="UIcomponent">Swipe</span> tool can be helpful to swipe back and forth between layers. Select the <span class="UIcomponent">Swipe</span> tool <img src="../resources/images/mapstudio/button_slider.png" alt="swipe tool button" /> in the top right of the map interface. In the tool dropdown the layer you select will be visible on the top part of the slider, the other layer will be visible on the bottom part of the sliders. </p>
+                                                <p>Using the <span class="UIcomponent">Swipe</span> tool can be helpful to swipe back and forth between layers. Click the <span class="UIcomponent">Swipe</span> tool <img src="../resources/images/mapstudio/button_slider.png" alt="swipe tool button" /> in the top right of the map interface. In the tool dropdown the layer you select will be visible on the top part of the slider, the other layer will be visible on the bottom part of the sliders. </p>
                                                 <p>The Swipe tool relies on the features as they are in the layer list, so pay attention to make sure the attributes checked in the layer list are the ones you wish to compare.</p>
                                                 <p>Make sure the same feature in each one is selected (in this case flame length). </p>
                                                 <p>
