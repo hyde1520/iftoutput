@@ -87,6 +87,7 @@ xmlAliasData += '    <Map Name=\"_6_Compare\" Link=\"tutorials/comparefeature/6_
 xmlAliasData += '    <Map Name=\"UsingMasks\" Link=\"concepts/usingmasks.htm\" ResolvedId=\"1176\" />';
 xmlAliasData += '    <Map Name=\"AccountPassword\" Link=\"getstarted/accountpassword.htm\" ResolvedId=\"1177\" />';
 xmlAliasData += '    <Map Name=\"AccountProfile\" Link=\"getstarted/accountprofile.htm\" ResolvedId=\"1178\" />';
+xmlAliasData += '    <Map Name=\"Resources\" Link=\"concepts/resources.htm\" ResolvedId=\"1182\" />';
 xmlAliasData += '    <Map Name=\"cycle_implementation_plan_hh\" Link=\"zhover/cycle_implementation_plan_hh.htm\" ResolvedId=\"1183\" />';
 xmlAliasData += '    <Map Name=\"cycle_intro_hh\" Link=\"zhover/cycle_intro_hh.htm\" ResolvedId=\"1184\" />';
 xmlAliasData += '    <Map Name=\"cycle_landscape_eval_hh\" Link=\"zhover/cycle_landscape_eval_hh.htm\" ResolvedId=\"1185\" />';
